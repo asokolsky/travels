@@ -240,3 +240,8 @@ Lodging notes:
 57. <a id="source-57"></a>[Dubrovnik Cable Car official site](https://www.dubrovnikcablecar.com/)
 58. <a id="source-58"></a>[Lokrum Island official site](https://www.lokrum.hr/en/)
 59. <a id="source-59"></a>[Scalini Palace official site](https://scalinipalace.com/)
+
+TODO:
+
+- reduce the stop over at zadar
+- do not sleep in Trieste, instead sleep at Mirco's or Torino
