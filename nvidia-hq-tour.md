@@ -1,3 +1,8 @@
+---
+layout: default
+title: Touring NVIDIA HQ
+---
+
 # Touring NVIDIA HQ
 
 Assumption: this is either a hosted visit to [NVIDIA](https://en.wikipedia.org/wiki/Nvidia)'s [Santa Clara, California](https://en.wikipedia.org/wiki/Santa_Clara,_California) headquarters or an exterior architecture stop. As of May 17, 2026, I found official visitor logistics for registered visitors, but not an official public-tour program; treat interior access as invite-only unless a host confirms otherwise. [[1]](#source-1)[[2]](#source-2)

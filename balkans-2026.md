@@ -1,3 +1,8 @@
+---
+layout: default
+title: Dubrovnik to Montevecchia Road Trip
+---
+
 # Dubrovnik, Croatia to Montevecchia, Italy Road Trip: Day 0 + 4 Driving Days
 
 Assumption: rented car, one-way route, and a strong preference for driving days

@@ -1,0 +1,9 @@
+title: Travel Plans
+description: Practical travel-planning notes and maps.
+url: "https://asokolsky.github.io"
+baseurl: "/travels"
+theme: minima
+markdown: kramdown
+exclude:
+  - AGENTS.md
+  - skills/
