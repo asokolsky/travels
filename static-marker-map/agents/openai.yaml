@@ -1,0 +1,4 @@
+interface:
+  display_name: "Static Marker Map"
+  short_description: "Build shareable Leaflet marker maps"
+  default_prompt: "Use $static-marker-map to create a browser marker map from GeoJSON or tabular point data."

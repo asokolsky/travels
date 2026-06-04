@@ -93,6 +93,8 @@ Rick Steves reference links:
 
 Full-trip map: [Dubrovnik -> Ston -> Pocitelj -> Mostar -> Blagaj -> Brela -> Split -> Trogir -> Rastoke -> Plitvice Lakes -> Mirco's, Montevecchia](https://www.google.com/maps/dir/?api=1&origin=Dubrovnik%2C%20Croatia&destination=Via%20Delle%20Sorgenti%2049%2C%2023874%20Montevecchia%20LC%2C%20Italy&travelmode=driving&waypoints=Ston%2C%20Croatia%7CPocitelj%2C%20Bosnia%20and%20Herzegovina%7CMostar%2C%20Bosnia%20and%20Herzegovina%7CBlagaj%2C%20Bosnia%20and%20Herzegovina%7CBrela%2C%20Croatia%7CSplit%2C%20Croatia%7CTrogir%2C%20Croatia%7CRastoke%2C%20Slunj%2C%20Croatia%7CPlitvice%20Lakes%20National%20Park%2C%20Croatia)
 
+Static stop map: [Balkans 2026 stops](balkans-2026-stops.html) ([GeoJSON](balkans-2026-stops.geojson)). This maps the route stops, the Dubrovnik core walk, and the named optional driver-change stops; restaurant and lodging candidates stay in the notes below.
+
 ## Day 0: Dubrovnik, Croatia
 
 Estimated driving: none if you are already in town. If this is arrival day with a rental car, avoid driving into the old center and confirm parking or drop-off logistics before committing to an Old Town hotel.

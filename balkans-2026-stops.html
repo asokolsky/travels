@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="skills/static-marker-map/scripts/build_leaflet_map.py">
+  <title>Balkans 2026 Stops</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      color: #203035;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .shell {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      background: #f7f5ef;
+    }
+
+    header {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 18px;
+      background: #fffefa;
+      border-bottom: 1px solid #d9d4c7;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .meta {
+      margin-top: 4px;
+      color: #52616b;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .actions a {
+      border: 1px solid #0f766e;
+      border-radius: 6px;
+      color: #0f5e66;
+      font-size: 14px;
+      font-weight: 650;
+      line-height: 1;
+      padding: 9px 11px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .actions a:focus,
+    .actions a:hover {
+      background: #e3f3f1;
+    }
+
+    #map {
+      min-height: calc(100vh - 75px);
+      width: 100%;
+    }
+
+    .leaflet-popup-content {
+      margin: 13px 15px;
+    }
+
+    .popup-title {
+      color: #1d3138;
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 7px;
+    }
+
+    .leaflet-popup-content table {
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .leaflet-popup-content th {
+      color: #52616b;
+      font-weight: 650;
+      padding: 2px 10px 2px 0;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .leaflet-popup-content td {
+      padding: 2px 0;
+      vertical-align: top;
+    }
+
+    .center-marker span {
+      display: block;
+      width: 18px;
+      height: 18px;
+      background: #a23e2f;
+      border: 3px solid #fffefa;
+      border-radius: 50%;
+      box-shadow: 0 1px 6px rgb(32 47 54 / 0.35);
+    }
+
+    @media (max-width: 700px) {
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .actions {
+        justify-content: flex-start;
+      }
+
+      #map {
+        min-height: calc(100vh - 124px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <h1>Balkans 2026 Stops</h1>
+        <div class="meta">24 itinerary stops from balkans-2026.md</div>
+      </div>
+      <nav class="actions" aria-label="Map data">
+        <a href="balkans-2026.md">Itinerary</a>
+        <a href="balkans-2026-stops.geojson">GeoJSON</a>
+        <a href="https://www.google.com/maps/dir/?api=1&amp;origin=Dubrovnik%2C%20Croatia&amp;destination=Via%20Delle%20Sorgenti%2049%2C%2023874%20Montevecchia%20LC%2C%20Italy&amp;travelmode=driving&amp;waypoints=Ston%2C%20Croatia%7CPocitelj%2C%20Bosnia%20and%20Herzegovina%7CMostar%2C%20Bosnia%20and%20Herzegovina%7CBlagaj%2C%20Bosnia%20and%20Herzegovina%7CBrela%2C%20Croatia%7CSplit%2C%20Croatia%7CTrogir%2C%20Croatia%7CRastoke%2C%20Slunj%2C%20Croatia%7CPlitvice%20Lakes%20National%20Park%2C%20Croatia">Google directions</a>
+      </nav>
+    </header>
+    <div id="map" aria-label="Marker map"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const POINTS = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "01 Dubrovnik",
+        "day": "Day 0",
+        "category": "start / old town",
+        "role": "Arrival base and old-town time before the road trip.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Dubrovnik%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0944,
+          42.6507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "02 Pile Gate",
+        "day": "Day 0",
+        "category": "walk stop",
+        "role": "Old Town entry point for the Dubrovnik core walk.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Pile%20Gate%2C%20Dubrovnik%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1073,
+          42.6419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "03 Walls of Dubrovnik",
+        "day": "Day 0",
+        "category": "sight",
+        "role": "Signature Dubrovnik sight; best early or late.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Walls%20of%20Dubrovnik%2C%20Dubrovnik%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1086,
+          42.6411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "04 Stradun",
+        "day": "Day 0",
+        "category": "walk stop",
+        "role": "Main spine of the old-town walk.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Stradun%2C%20Dubrovnik%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1095,
+          42.6408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "05 Sponza Palace",
+        "day": "Day 0",
+        "category": "sight",
+        "role": "Compact old-town stop on the Stradun walk.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sponza%20Palace%2C%20Dubrovnik%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1106,
+          42.6405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "06 Rector's Palace",
+        "day": "Day 0",
+        "category": "sight",
+        "role": "Old-town palace stop near the harbor edge.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Rector%27s%20Palace%2C%20Dubrovnik%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1107,
+          42.6401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "07 Buza Bar",
+        "day": "Day 0",
+        "category": "drink stop",
+        "role": "Cliffside drink stop before dinner, not the meal plan.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Buza%20Bar%2C%20Dubrovnik%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1114,
+          42.6396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "08 Dubrovnik Cable Car / Srd",
+        "day": "Day 0",
+        "category": "viewpoint",
+        "role": "Sunset viewpoint if weather and timetable cooperate.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Dubrovnik%20Cable%20Car%2C%20Dubrovnik%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1117,
+          42.6427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "09 Ston",
+        "day": "Day 1",
+        "category": "route stop",
+        "role": "Walls, salt pans, and the Peljesac oyster detour.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ston%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6964,
+          42.8386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "10 Mali Ston",
+        "day": "Day 1",
+        "category": "food stop",
+        "role": "Oysters if lunch timing does not endanger the border day.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Mali%20Ston%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7044,
+          42.8463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "11 Pocitelj",
+        "day": "Day 1",
+        "category": "route stop",
+        "role": "Short old-stone-village walk and fortress viewpoint.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Pocitelj%2C%20Bosnia%20and%20Herzegovina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7317,
+          43.1346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "12 Mostar",
+        "day": "Day 1 / Day 2",
+        "category": "overnight",
+        "role": "Old-town base for evening and early-morning bridge time.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Mostar%2C%20Bosnia%20and%20Herzegovina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8078,
+          43.3438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "13 Blagaj / Buna Spring",
+        "day": "Day 2",
+        "category": "route stop",
+        "role": "Tekke and spring detour before crossing back into Croatia.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Blagaj%2C%20Bosnia%20and%20Herzegovina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9039,
+          43.2567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "14 Brela / Punta Rata",
+        "day": "Day 2",
+        "category": "coastal stop",
+        "role": "Beach walk, not a long beach day.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Brela%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9342,
+          43.3665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "15 Baska Voda",
+        "day": "Day 2",
+        "category": "alternate coastal stop",
+        "role": "Alternative to Brela for the quick coastal break.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Baska%20Voda%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9509,
+          43.3566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "16 Split",
+        "day": "Day 2 / Day 3",
+        "category": "overnight option",
+        "role": "Palace atmosphere and nightlife if this is the chosen base.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Split%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4402,
+          43.5081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "17 Trogir",
+        "day": "Day 2 / Day 3",
+        "category": "overnight option / route stop",
+        "role": "Quieter old-town base or short stop if sleeping in Split.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Trogir%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2502,
+          43.5164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "18 Rastoke",
+        "day": "Day 3 / Day 4",
+        "category": "route stop / overnight option",
+        "role": "Waterfall village near Slunj before the Plitvice start.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Rastoke%2C%20Slunj%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5846,
+          45.121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "19 Plitvice Lakes",
+        "day": "Day 3 / Day 4",
+        "category": "overnight / park stop",
+        "role": "Timed-ticket park visit before the long final transfer.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Plitvice%20Lakes%20National%20Park%2C%20Croatia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6088,
+          44.8654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "20 Postojna",
+        "day": "Day 4",
+        "category": "optional driver-change stop",
+        "role": "Fuel or coffee only; not a cave sightseeing stop on this route.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Postojna%2C%20Slovenia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.213,
+          45.775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "21 Vipava",
+        "day": "Day 4",
+        "category": "optional driver-change stop",
+        "role": "Fuel or coffee only on the Slovenia stretch.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Vipava%2C%20Slovenia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9631,
+          45.8467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "22 Gorizia",
+        "day": "Day 4",
+        "category": "optional driver-change stop",
+        "role": "Fuel or coffee only near the Slovenia-Italy crossing.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Gorizia%2C%20Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6215,
+          45.941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "23 Palmanova",
+        "day": "Day 4",
+        "category": "optional driver-change stop",
+        "role": "Fuel or coffee only after entering Italy.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Palmanova%2C%20Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3109,
+          45.9051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "24 Montevecchia",
+        "day": "Day 4",
+        "category": "destination",
+        "role": "Final destination near Lecco and the Brianza hills.",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Montevecchia%2C%20Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3809,
+          45.7051
+        ]
+      }
+    }
+  ]
+};
+    const CENTER = {"lat": null, "lon": null, "name": "Center", "note": "", "radiusKm": null};
+    const NAME_PROPERTY = "name";
+
+    const map = L.map("map", { preferCanvas: true });
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution: "&copy; OpenStreetMap contributors",
+    }).addTo(map);
+
+    const markers = L.geoJSON(POINTS, {
+      pointToLayer: (_feature, latlng) => L.circleMarker(latlng, {
+        radius: 5,
+        color: "#0f5e66",
+        weight: 1.5,
+        fillColor: "#1c9a93",
+        fillOpacity: 0.78,
+      }),
+      onEachFeature: (feature, layer) => {
+        const p = feature.properties || {};
+        layer.bindPopup(popupHtml(p));
+      },
+    }).addTo(map);
+
+    const bounds = markers.getBounds();
+    if (Number.isFinite(CENTER.lat) && Number.isFinite(CENTER.lon)) {
+      addCenterMarker(bounds);
+    }
+
+    if (bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [28, 28] });
+    } else if (Number.isFinite(CENTER.lat) && Number.isFinite(CENTER.lon)) {
+      map.setView([CENTER.lat, CENTER.lon], 10);
+    } else {
+      map.setView([0, 0], 2);
+    }
+
+    function addCenterMarker(bounds) {
+      if (Number.isFinite(CENTER.radiusKm) && CENTER.radiusKm > 0) {
+        L.circle([CENTER.lat, CENTER.lon], {
+          radius: CENTER.radiusKm * 1000,
+          color: "#a23e2f",
+          weight: 2,
+          opacity: 0.75,
+          fillColor: "#e6b451",
+          fillOpacity: 0.05,
+        }).addTo(map);
+      }
+
+      const centerIcon = L.divIcon({
+        className: "center-marker",
+        html: "<span></span>",
+        iconSize: [18, 18],
+        iconAnchor: [9, 9],
+      });
+      L.marker([CENTER.lat, CENTER.lon], {
+        icon: centerIcon,
+        title: CENTER.name,
+      })
+        .bindPopup(`<div class="popup-title">${escapeHtml(CENTER.name)}</div><div>${escapeHtml(CENTER.note)}</div>`)
+        .addTo(map);
+      bounds.extend([CENTER.lat, CENTER.lon]);
+    }
+
+    function popupHtml(properties) {
+      const title = properties[NAME_PROPERTY] || properties.name || properties.title || "Point";
+      const rows = Object.entries(properties)
+        .filter(([key, value]) => value !== null && value !== undefined && value !== "" && !isUrlField(key))
+        .map(([key, value]) => `<tr><th>${escapeHtml(labelize(key))}</th><td>${escapeHtml(formatValue(value))}</td></tr>`)
+        .join("");
+      const url = properties.google_maps_url || properties.maps_url || properties.url;
+      const link = url
+        ? `<p><a href="${escapeHtml(url)}" target="_blank" rel="noopener">Open map link</a></p>`
+        : "";
+      return `<div class="popup-title">${escapeHtml(title)}</div><table>${rows}</table>${link}`;
+    }
+
+    function isUrlField(key) {
+      return ["google_maps_url", "maps_url", "url"].includes(key);
+    }
+
+    function labelize(key) {
+      return String(key)
+        .replace(/_/g, " ")
+        .replace(/\b\w/g, (letter) => letter.toUpperCase());
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function formatValue(value) {
+      return typeof value === "number" ? value.toLocaleString("en-US") : value;
+    }
+  </script>
+</body>
+</html>
