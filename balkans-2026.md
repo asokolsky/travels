@@ -100,7 +100,7 @@ Full-trip map: [Dubrovnik -> Ston -> Pocitelj -> Mostar -> Blagaj -> Brela -> Sp
 
 Static stop map: [Balkans 2026 stops](balkans-2026-stops.html) ([GeoJSON](balkans-2026-stops.geojson)). This maps the route stops, the Dubrovnik core walk, and the named optional driver-change stops; restaurant and lodging candidates stay in the notes below.
 
-## Day 0: Dubrovnik, Croatia
+## Day 0: Dubrovnik, Croatia, 8/25,8/26
 
 Estimated driving: none if you are already in town. If this is arrival day with a rental car, avoid driving into the old center and confirm parking or drop-off logistics before committing to an Old Town hotel.
 
@@ -129,7 +129,7 @@ Lodging notes:
 
 Skip note: Do not try to do the walls, [Lokrum](https://en.wikipedia.org/wiki/Lokrum), [Srđ](https://en.wikipedia.org/wiki/Sr%C4%91), multiple museums, and a long dinner in one relaxed day. Pick the walls plus one major add-on.
 
-## Day 1: Dubrovnik, Croatia to Mostar, Bosnia and Herzegovina
+## Day 1: Dubrovnik, Croatia to Mostar, Bosnia and Herzegovina, 8/27
 
 Estimated driving: 3.25 to 3.75 hours total, plus border time.
 
@@ -154,7 +154,7 @@ Lodging notes:
 
 Skip [Kravica](https://en.wikipedia.org/wiki/Kravica_%28waterfall%29) unless the border crossing is unusually quick. [[1]](#source-1)[[9]](#source-9)
 
-## Day 2: Mostar, Bosnia and Herzegovina to Split / Trogir, Croatia via Brela, Croatia
+## Day 2: Mostar, Bosnia and Herzegovina to Split / Trogir, Croatia via Brela, Croatia, 8/28
 
 Estimated driving: 3.5 to 4 hours total, plus border time. Skip [Imotski](https://en.wikipedia.org/wiki/Imotski) if the border is slow. [[1]](#source-1)[[9]](#source-9)
 
@@ -180,7 +180,7 @@ Lodging notes:
 - If sleeping in [Split](https://en.wikipedia.org/wiki/Split,_Croatia), stay inside or right beside [Diocletian's Palace](https://en.wikipedia.org/wiki/Diocletian%27s_Palace) only if you are comfortable with pedestrian luggage logistics and some old-town noise. Hotel Slavija ([map](https://www.google.com/maps/search/?api=1&query=Hotel%20Slavija%2C%20Split%2C%20Croatia)) is the classic in-palace practical choice, while Hotel Vestibul Palace ([map](https://www.google.com/maps/search/?api=1&query=Hotel%20Vestibul%20Palace%2C%20Split%2C%20Croatia)) is the small heritage splurge. [[33]](#source-33)[[34]](#source-34)
 - If sleeping in [Trogir](https://en.wikipedia.org/wiki/Trogir), use the old town if you want a quieter, more compact evening than Split. Hotel Monika ([map](https://www.google.com/maps/search/?api=1&query=Hotel%20Monika%2C%20Trogir%2C%20Croatia)) and Heritage Hotel Tragos ([map](https://www.google.com/maps/search/?api=1&query=Heritage%20Hotel%20Tragos%2C%20Trogir%2C%20Croatia)) fit the historic-core plan; Brown Beach House ([map](https://www.google.com/maps/search/?api=1&query=Brown%20Beach%20House%2C%20Trogir%2C%20Croatia)) is better if you want parking, pool time, and an easier car arrival outside the old-town lanes. [[35]](#source-35)[[36]](#source-36)[[37]](#source-37)
 
-## Day 3: Split / Trogir, Croatia to Plitvice / Rastoke, Croatia
+## Day 3: Split / Trogir, Croatia to Plitvice / Rastoke, Croatia, 8/29, 9/30
 
 Estimated driving: 3.25 to 4 hours total, depending on whether you start in Split or Trogir and how long you spend in Rastoke.
 
@@ -205,7 +205,7 @@ Lodging notes:
 
 Rick Steves-style choice: do [Split](https://en.wikipedia.org/wiki/Split,_Croatia) or [Trogir](https://en.wikipedia.org/wiki/Trogir) well, not both deeply, and do not add another coastal stop to this version. [[1]](#source-1)[[4]](#source-4)
 
-## Day 4: Plitvice Lakes, Croatia to Mirco's, Montevecchia, Italy
+## Day 4: Plitvice Lakes, Croatia to Mirco's, Montevecchia, Italy, 8/31
 
 Estimated driving: about 8 to 9 hours after the park, plus fuel, food, rest
 stops, and possible Croatia-to-Slovenia and Slovenia-to-Italy checks. This is
