@@ -4,6 +4,9 @@ url: "https://asokolsky.github.io"
 baseurl: "/travels"
 theme: minima
 markdown: kramdown
+header_pages:
+  - balkans-2026.md
+  - nvidia-hq-tour.md
 exclude:
   - AGENTS.md
   - skills/
