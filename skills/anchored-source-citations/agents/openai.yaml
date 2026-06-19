@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anchored Source Citations"
+  short_description: "Write stable numbered Markdown citations"
+  default_prompt: "Use $anchored-source-citations to add clickable numbered source citations to this Markdown note."

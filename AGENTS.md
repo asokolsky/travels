@@ -13,6 +13,7 @@ The current primary itinerary is `balkans.md`: a fast 5-day road trip from Dubro
 - Lead each itinerary with assumptions such as trip length, transport mode, route direction, overnight bases, and maximum acceptable driving time.
 - Use sections similar to the existing itinerary: route lens, route summary, day-by-day plan, practical car notes, and source references.
 - For locations and attractions, prefer real Wikipedia article links on the first important mention in a section. If no real Wikipedia article exists, use a Google Maps place/search link labeled `map`, such as `Buza Bar ([map](...))`, so the place name does not look like it links to an article.
+- When adding, repairing, or reviewing source-backed citations, use the repo-local skill at `skills/anchored-source-citations`.
 - Use clickable numbered source references that render with square brackets, such as `[[1]](#source-1)`, and keep the `Source References` section in sync.
 - In each `Source References` section, define a matching explicit source anchor on every source item, such as `1. <a id="source-1"></a>[Source title](https://example.com)`, so body citations jump to the relevant source.
 - Preserve the existing plain, practical voice. Avoid marketing copy, generic travel fluff, and overloaded sightseeing lists.
