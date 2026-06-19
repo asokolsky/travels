@@ -4,8 +4,6 @@ parent: Italy
 layout: page
 ---
 
-# Italian Taxes
-
 Applicable ONLY if you are an Italian [tax resident](tax-residency.html).
 
 Working assumption: examples are household-level planning estimates for a U.S.

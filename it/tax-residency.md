@@ -4,8 +4,6 @@ parent: Italy
 layout: page
 ---
 
-# Italian Tax Residency
-
 As of June 19, 2026, the core domestic rule is TUIR Article 2. For Italian
 income-tax purposes, an individual is resident if, for the greater part of the
 tax year, counting fractions of days, at least one of these is true: [[1]](#source-1)
