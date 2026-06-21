@@ -33,14 +33,6 @@ foreign bank accounts and special cases can be calculated differently, so use
 the annual `Quadro W` instructions rather than treating the 0.2% rule as the
 whole calculation.
 
-## Foreign Real Estate - Imposta sul Valore degli Immobili situati all’Estero, IVIE
-
-Italian tax residents also use `Quadro W` to calculate IVIE on foreign real
-estate. A rough planning assumption is 0.76% of value per year, reduced by
-available foreign property-tax credits and prorated for months of ownership.
-The 730/2026 instructions include the IVIE fields, credits, ownership months,
-and the €200 primary-residence detraction.
-
 ## Personal Income Tax - Imposta sul Reddito delle Persone Fisiche, IRPEF
 
 ### Current IRPEF Brackets
@@ -146,58 +138,108 @@ only if the spouse's total income is no more than €2,840.51 before deductible
 charges. The spouse's tax code still has to be listed in the family section
 even if the spouse is not tax-dependent.
 
-## Investment Income - Capital Gains, Dividends, and Interest
+## Investment Income
 
-Baseline rule for an Italian tax resident: Italy taxes worldwide investment
-income unless a treaty rule or special substitute-tax regime changes the result.
-For U.S. taxable brokerage accounts, this means the account may appear in
-`Quadro W` for foreign-asset reporting and IVAFE, while the dividends,
-interest, and realized capital gains are taxed in the income sections of the
-return.
+Italy taxes worldwide investment income unless a treaty rule or special
+substitute-tax regime changes the result.
+
+For U.S. taxable brokerage accounts, each account may appear in `Quadro W` for
+foreign-asset reporting and IVAFE, while each income item is classified by
+category. If a U.S. brokerage pays income with no Italian withholding, expect
+the tax preparer to use the 730/2026 `Quadro D`, `Quadro M`, `Quadro T`, and
+`Quadro W` framework or the corresponding `Modello Redditi PF` schedules.
 
 For a married couple, use the ownership rules above: separately owned accounts
 belong to the owning spouse, and joint accounts are allocated by ownership
 percentage.
 
-Ordinary planning assumptions:
+### Capital Gains
 
-- Dividends from ordinary portfolio shares: `redditi di capitale` under TUIR
-  Article 44; usually a 26% final withholding or substitute-tax item. Special
-  rules can apply for pre-2018 profits, privileged-tax jurisdictions, business
-  holdings, and some fund structures.
-- Interest from bank accounts and bonds: `redditi di capitale` under TUIR
-  Article 44; usually 26%. Interest on Italian government bonds and qualifying
-  government/equivalent bonds is a major exception, commonly modeled at 12.5%.
-- Capital gains from stocks, ETFs, funds, bonds, options, and other financial
-  instruments: `redditi diversi` under TUIR Articles 67-68; usually 26% on net
-  realized gains after eligible financial losses. Government/equivalent bond
-  gains can get the 12.5% effective treatment through the reduced taxable base.
+Capital gains from direct listed shares, bonds, options, and similar financial
+instruments are usually `redditi diversi` under TUIR Articles 67-68. For 2025
+income reported on `Modello 730/2026`, the return's `Quadro T` framework
+applies a 26% substitute tax to many financial gains realized after July 1,
+2014, including current ordinary stock and bond gains.
 
-Important details:
+Calculate gains on a realized basis, generally comparing proceeds with tax
+basis and eligible transaction costs. Capital losses generally offset only
+eligible financial capital gains and similar `redditi diversi`, not dividend or
+interest income. TUIR Article 68 allows excess losses to be carried forward
+against later eligible gains, but not beyond the fourth following tax period.
 
-- Dividends and interest are not just added to ordinary progressive IRPEF in
-  the basic portfolio model; they are usually taxed through final withholding
-  or substitute tax.
-- If an Italian intermediary withholds the final tax, the item may not need the
-  same return treatment as a foreign account with no Italian withholding.
-- If the income is from a U.S. brokerage account with no Italian withholding,
-  expect the tax preparer to classify the income in the return, often using
-  the 730/2026 `Quadro D`, `Quadro M`, `Quadro T`, and `Quadro W` framework or
-  the corresponding `Modello Redditi PF` schedules.
-- Capital losses generally offset only eligible financial capital gains and
-  similar `redditi diversi`, not dividend or interest income. TUIR Article 68
-  allows excess losses to be carried forward against later eligible gains, but
-  not beyond the fourth following tax period.
-- Bond funds and ETFs are not automatically the same as holding government
-  bonds directly. Confirm the fund-level treatment before assuming the 12.5%
-  government-bond result.
-- If the Article 24-ter 7% pensioner regime applies, qualifying foreign-source
-  dividends, interest, and capital gains need to be modeled under that
-  substitute-tax election instead of simply applying the ordinary 26% portfolio
-  rule. Italian-source items and nonqualifying items still need separate review.
-- U.S. citizenship does not remove the Italian tax-residence filing problem.
-  The U.S. return, treaty positions, and foreign tax credit calculation still
-  need to be modeled after the Italian classification is known.
+Government and equivalent bond gains can receive the 12.5% effective treatment
+through the reduced taxable base. For pooled funds that hold government bonds,
+use the fund/OICR analysis below instead of assuming direct-bond treatment.
+
+### Dividends
+
+Dividends from ordinary portfolio shares are usually `redditi di capitale`
+under TUIR Article 44. In the basic post-2018 listed-stock portfolio model,
+ordinary dividends are usually taxed through a 26% final withholding or
+substitute tax rather than being added to ordinary progressive IRPEF.
+
+Special rules can apply for pre-2018 profits, privileged-tax jurisdictions,
+business holdings, and substantial holdings. Dividend income is not reduced by
+ordinary financial capital losses.
+
+If an Italian intermediary withholds the final tax, the item may not need the
+same return treatment as directly received foreign-source income.
+
+### Interest
+
+Interest from bank accounts, deposits, bonds, and similar instruments is
+usually `redditi di capitale` under TUIR Article 44. The rough planning rate is
+26%, with Italian government bonds and qualifying government/equivalent bonds
+as the major exception, commonly modeled at 12.5%.
+
+Directly received foreign bank and brokerage cash interest can require return
+reporting. Interest is a capital-income item, not a financial capital gain, so
+ordinary capital losses do not offset it.
+
+### U.S. Mutual Funds and Other Non-Harmonized Funds
+
+Do not treat a U.S.-domiciled mutual fund as if it were simply an individual
+stock or an EU UCITS fund. The SEC describes a U.S. mutual fund as an
+SEC-registered open-end investment company that pools investor money and
+redeems shares at NAV. For Italian tax planning, that makes it a foreign pooled
+investment vehicle, and a U.S.-domiciled mutual fund is generally not an
+EU/EEA harmonized fund.
+
+For 2025 income reported on `Modello 730/2026`, `Quadro D` line D2 code 4
+specifically includes proceeds from foreign collective investment undertakings
+that do not conform to EU directives. The practical planning concern is that
+distributions and positive sale, redemption, or liquidation proceeds from a
+U.S. mutual fund may be treated as `redditi di capitale` that enter ordinary
+progressive-IRPEF taxable income when no final withholding or substitute-tax
+path applies, rather than as ordinary 26% net capital gains. That also means
+the usual capital-loss offset rules may not help.
+
+Bottom line: an Italian tax resident should generally avoid holding or adding
+U.S.-domiciled mutual funds in taxable accounts unless an Italian tax preparer
+has confirmed the exact classification and reporting treatment. The same
+caution can apply to U.S.-domiciled ETFs. Prefer direct securities, instruments
+with known Italian tax treatment, or adviser-reviewed fund alternatives.
+Existing U.S. retirement-account holdings need separate treaty and account
+analysis; do not assume the taxable-brokerage rule is the whole answer.
+
+### Special Regimes and U.S. Coordination
+
+If the Article 24-ter 7% pensioner regime applies, qualifying foreign-source
+dividends, interest, and capital gains need to be modeled under that
+substitute-tax election instead of simply applying the ordinary 26% portfolio
+rule. Italian-source items and nonqualifying items still need separate review.
+
+U.S. citizenship does not remove the Italian tax-residence filing problem. The
+U.S. return, treaty positions, and foreign tax credit calculation still need to
+be modeled after the Italian classification is known.
+
+## Foreign Real Estate - Imposta sul Valore degli Immobili situati all’Estero, IVIE
+
+Italian tax residents also use `Quadro W` to calculate IVIE on foreign real
+estate. A rough planning assumption is 0.76% of value per year, reduced by
+available foreign property-tax credits and prorated for months of ownership.
+The 730/2026 instructions include the IVIE fields, credits, ownership months,
+and the €200 primary-residence detraction.
 
 ## Real Estate - Imposta Municipale Unica, IMU
 
@@ -412,6 +454,7 @@ Primary:
 - [MEF: 2025 Martinsicuro municipal IRPEF addizionale](https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/addirpef_newDF/risultato.htm?lista=1&r=1&pagina=abruzzo.htm&pr=TE&cc=E989&anno=2025)
 - [MEF: 2025 annual municipal IRPEF addizionale list, updated March 13, 2026](https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Fiscalita-locale/Elenco-annuale-addizionale-comunale-IRPEF-2025-13-marzo-2026.xlsx)
 - [Normattiva: TUIR Article 4, spouses and minor children](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art4)
+- [Normattiva: TUIR Article 18, foreign-source income collected directly](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art18)
 - [Normattiva: TUIR Article 44, redditi di capitale](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art44)
 - [Normattiva: TUIR Article 67, redditi diversi](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art67)
 - [Normattiva: TUIR Article 68, capital-gain calculation rules](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art68)
@@ -422,6 +465,7 @@ Primary:
 - [Normattiva: D.Lgs. 347/1990, mortgage and cadastral taxes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1990-10-31;347)
 - [IRS Publication 514, Foreign Tax Credit for Individuals, 2025 returns](https://www.irs.gov/pub/irs-pdf/p514.pdf)
 - [IRS: U.S.-Italy income tax treaty](https://www.irs.gov/pub/irs-trty/italy.pdf)
+- [SEC: Mutual Funds and ETFs, A Guide for Investors](https://www.sec.gov/investor/pubs/sec-guide-to-mutual-funds.pdf)
 - [ECB Data Portal: $/€ reference exchange rate, June 16, 2026](https://data-api.ecb.europa.eu/service/data/EXR/D.%55%53%44.%45%55%52.SP00.A?startPeriod=2026-06-16&endPeriod=2026-06-16)
 
 Planning tools:
