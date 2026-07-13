@@ -30,9 +30,9 @@ serves as the on-site guide; there is no separate conference app.
 
 ## Hotel
 
-**[The Ritz-Carlton, Los Angeles](https://www.ritzcarlton.com/en/hotels/laxlz-the-ritz-carlton-los-angeles/overview/)**  
-900 W Olympic Boulevard, Los Angeles, CA 90015  
-Telephone: +1 213-743-8800  
+**[The Ritz-Carlton, Los Angeles](https://www.ritzcarlton.com/en/hotels/laxlz-the-ritz-carlton-los-angeles/overview/)**
+900 W Olympic Boulevard, Los Angeles, CA 90015
+Telephone: +1 213-743-8800
 [Map](https://www.google.com/maps/search/?api=1&query=The%20Ritz-Carlton%20Los%20Angeles%2C%20900%20W%20Olympic%20Blvd%2C%20Los%20Angeles%2C%20CA%2090015)
 
 The hotel is in L.A. LIVE, beside Crypto.com Arena and just north of the
@@ -97,10 +97,42 @@ list these downtown locations as operating; recheck hours before setting out.
   ([map](https://www.google.com/maps/search/?api=1&query=Whole%20Foods%20Market%2C%20788%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090017)).
   The official listing currently shows daily hours of 7:00 a.m.-10:00 p.m.
   [[8]](#source-8)
+- **Smart & Final** -- about 0.4 mile; the closest value-oriented option for
+  drinks, snacks, breakfast supplies, and larger packages. 845 S Figueroa
+  Street
+  ([map](https://www.google.com/maps/search/?api=1&query=Smart%20%26%20Final%2C%20845%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090017)).
+  [[19]](#source-19)
+- **Target LA Central** -- about 0.7 mile; useful for basic groceries and
+  household or travel essentials, but not a full supermarket. 735 S Figueroa
+  Street
+  ([map](https://www.google.com/maps/search/?api=1&query=Target%2C%20735%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090017)).
+  [[20]](#source-20)
+- **Grocery Outlet** -- about 1.3 miles; a discount supermarket with produce
+  and packaged food, though its bargain inventory rotates. 1120 W 6th Street
+  ([map](https://www.google.com/maps/search/?api=1&query=Grocery%20Outlet%2C%201120%20W%206th%20St%2C%20Los%20Angeles%2C%20CA%2090017)).
+  [[21]](#source-21)
+- **Marukai Market Little Tokyo** -- about 1.8 miles; a destination option for
+  Japanese groceries, snacks, bento, and sushi. 123 S Onizuka Street, Suite
+  105
+  ([map](https://www.google.com/maps/search/?api=1&query=Marukai%20Market%2C%20123%20S%20Onizuka%20St%2C%20Los%20Angeles%2C%20CA%2090012)).
+  [[22]](#source-22)
+- **Nijiya Market Little Tokyo** -- about 1.9 miles and near the two-mile
+  boundary; another Japanese specialty market with groceries and prepared
+  food. 124 Japanese Village Plaza Mall
+  ([map](https://www.google.com/maps/search/?api=1&query=Nijiya%20Market%2C%20124%20Japanese%20Village%20Plaza%20Mall%2C%20Los%20Angeles%2C%20CA%2090012)).
+  [[23]](#source-23)
 
-Rick Steves-style choice: use Ralphs for a quick supply run; walk the extra few
-blocks to Whole Foods only if prepared food or its broader specialty selection
+Rick Steves-style choices:
+
+- use Smart & Final or Ralphs for a quick supply run;
+- walk to Whole Foods only if prepared food or its broader specialty selection
 matters.
+- Treat the Little Tokyo markets as specialty-food destinations rather
+than routine supply runs.
+- Cheap-wine choice: try Grocery Outlet first. The chain specifically
+promotes its wine selection for bargain hunters, but inventory changes
+frequently, so Smart & Final is the closer fallback when predictable selection
+matters more than finding the lowest price. [[24]](#source-24)
 
 ### Restaurants
 
@@ -134,6 +166,27 @@ matters.
   ([map](https://www.google.com/maps/search/?api=1&query=Sonoratown%2C%20208%20E%208th%20St%2C%20Los%20Angeles%2C%20CA%2090014)).
   This is the longest walk on the list; use a short ride after dark or when
   tired. [[12]](#source-12)
+- **Mastro's Ocean Club** -- about 0.4 mile, across from the convention center;
+  the steak-and-seafood splurge, with nightly live entertainment. 1200 S
+  Figueroa Street
+  ([map](https://www.google.com/maps/search/?api=1&query=Mastro%27s%20Ocean%20Club%2C%201200%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090015)).
+  [[14]](#source-14)
+- **Baar Baar** -- about 0.5 mile; modern Indian food and cocktails in a lively
+  room that works well for a group dinner. 705 W 9th Street
+  ([map](https://www.google.com/maps/search/?api=1&query=Baar%20Baar%2C%20705%20W%209th%20St%2C%20Los%20Angeles%2C%20CA%2090015)).
+  [[15]](#source-15)
+- **Joyce Soul & Sea** -- about 0.8 mile; Southern coastal seafood, raw-bar
+  dishes, cornbread, and shrimp and grits. 770 S Grand Avenue, Suite A
+  ([map](https://www.google.com/maps/search/?api=1&query=Joyce%20Soul%20%26%20Sea%2C%20770%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090017)).
+  [[16]](#source-16)
+- **DAMA** -- about 1.3 miles; Latin American sharing plates and cocktails in
+  the Fashion District, best treated as a destination dinner. 612 E 11th Street
+  ([map](https://www.google.com/maps/search/?api=1&query=DAMA%2C%20612%20E%2011th%20St%2C%20Los%20Angeles%2C%20CA%2090015)).
+  [[17]](#source-17)
+- **KazuNori** -- about 1.5 miles; counter-service hand rolls and a particularly
+  good choice for a focused casual or solo meal. 421 S Main Street
+  ([map](https://www.google.com/maps/search/?api=1&query=KazuNori%2C%20421%20S%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090013)).
+  [[18]](#source-18)
 
 Conference-week strategy: expect the closest L.A. LIVE restaurants to be busy
 immediately after sessions. Eat early, reserve where possible, or walk south to
@@ -183,3 +236,14 @@ before travel because schedules and airport construction can change.
 11. <a id="source-11"></a>[Bottega Louie official site](https://bottegalouie.com/)
 12. <a id="source-12"></a>[Sonoratown official site](https://www.sonoratown.com/)
 13. <a id="source-13"></a>[Eater LA: restaurants near Crypto.com Arena and the convention center, updated December 2025](https://la.eater.com/maps/best-restaurants-crypto-dot-com-arena-la-live-convention-center-los-angeles-downtown)
+14. <a id="source-14"></a>[Mastro's Ocean Club Downtown Los Angeles official location page](https://www.mastrosrestaurants.com/location/mastros-ocean-club-la/)
+15. <a id="source-15"></a>[Baar Baar Los Angeles official site](https://www.baarbaarla.com/)
+16. <a id="source-16"></a>[Eater LA: Joyce Soul & Sea](https://la.eater.com/venue/99992/joyce-soul-and-sea)
+17. <a id="source-17"></a>[DAMA Fashion District official site](https://damafashiondistrict.com/)
+18. <a id="source-18"></a>[Discover Los Angeles: KazuNori Downtown LA](https://www.discoverlosangeles.com/eat-drink/kazunori-downtown-la)
+19. <a id="source-19"></a>[Smart & Final: South Figueroa store](https://www.smartandfinal.com/sm/planning/rsid/484/store)
+20. <a id="source-20"></a>[Target LA Central official store listing](https://www.target.com/sl/la-central-target-store/2776)
+21. <a id="source-21"></a>[Downtown LA: Grocery Outlet](https://downtownla.com/go/grocery-outlet)
+22. <a id="source-22"></a>[Marukai Market Little Tokyo official store listing](https://www.marukai.com/pages/little-tokyo)
+23. <a id="source-23"></a>[Nijiya Market official store locations](https://www.nijiya.com/store-location)
+24. <a id="source-24"></a>[Grocery Outlet: 2026 value-shopping and wine guidance](https://investors.groceryoutlet.com/news-releases/news-release-details/grocery-outlet-reveals-2026-xtreme-valuetm-shopping-tips)

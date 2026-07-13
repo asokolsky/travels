@@ -75,6 +75,66 @@
         "type": "Point",
         "coordinates": [-118.2521722, 34.0415628]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mastro's Ocean Club",
+        "category": "restaurant / steak and seafood",
+        "address": "1200 S Figueroa St, Los Angeles, CA 90015",
+        "distance": "about 0.4 mile from hotel",
+        "notes": "Steak-and-seafood splurge with nightly live entertainment",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Mastro%27s%20Ocean%20Club%2C%201200%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {"type": "Point", "coordinates": [-118.2665426, 34.0410945]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baar Baar",
+        "category": "restaurant / modern Indian",
+        "address": "705 W 9th St, Los Angeles, CA 90015",
+        "distance": "about 0.5 mile from hotel",
+        "notes": "Modern Indian food and cocktails; good for groups",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Baar%20Baar%2C%20705%20W%209th%20St%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {"type": "Point", "coordinates": [-118.2615244, 34.0460290]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joyce Soul & Sea",
+        "category": "restaurant / Southern coastal seafood",
+        "address": "770 S Grand Ave, Suite A, Los Angeles, CA 90017",
+        "distance": "about 0.8 mile from hotel",
+        "notes": "Raw bar, cornbread, and shrimp and grits",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Joyce%20Soul%20%26%20Sea%2C%20770%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090017"
+      },
+      "geometry": {"type": "Point", "coordinates": [-118.2568501, 34.0461113]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DAMA",
+        "category": "restaurant / Latin American",
+        "address": "612 E 11th St, Los Angeles, CA 90015",
+        "distance": "about 1.3 miles from hotel",
+        "notes": "Sharing plates and cocktails; destination dinner",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=DAMA%2C%20612%20E%2011th%20St%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {"type": "Point", "coordinates": [-118.2530661, 34.0352723]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KazuNori",
+        "category": "restaurant / Japanese hand rolls",
+        "address": "421 S Main St, Los Angeles, CA 90013",
+        "distance": "about 1.5 miles from hotel",
+        "notes": "Counter-service hand rolls; good for solo dining",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=KazuNori%2C%20421%20S%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090013"
+      },
+      "geometry": {"type": "Point", "coordinates": [-118.2478072, 34.0476428]}
     }
   ]
 }
