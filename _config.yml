@@ -5,6 +5,8 @@ baseurl: "/travels"
 theme: minima
 markdown: kramdown
 header_pages:
+  - siggraph-2026/index.md
+  - nvidia-hq-tour.md
 exclude:
   - AGENTS.md
   - skills/

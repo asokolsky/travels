@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Touring NVIDIA HQ
+title: Visiting NVIDIA
 ---
 
 # Touring NVIDIA HQ

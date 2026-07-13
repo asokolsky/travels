@@ -38,6 +38,12 @@ def parse_args() -> argparse.Namespace:
         default="name",
         help="CSV or GeoJSON property used as marker title. Default: name.",
     )
+    parser.add_argument(
+        "--marker-radius",
+        type=float,
+        default=5,
+        help="Circle-marker radius in pixels. Default: 5.",
+    )
     parser.add_argument("--center-lat", type=float, help="Optional center marker lat.")
     parser.add_argument("--center-lon", type=float, help="Optional center marker lon.")
     parser.add_argument("--center-name", help="Optional center marker name.")
@@ -165,6 +171,7 @@ def html_document(
     title: str,
     subtitle: str | None,
     name_column: str,
+    marker_radius: float,
     center_lat: float | None,
     center_lon: float | None,
     center_name: str | None,
@@ -352,7 +359,7 @@ def html_document(
 
     const markers = L.geoJSON(POINTS, {{
       pointToLayer: (_feature, latlng) => L.circleMarker(latlng, {{
-        radius: 5,
+        radius: {marker_radius},
         color: "#0f5e66",
         weight: 1.5,
         fillColor: "#1c9a93",
@@ -454,6 +461,7 @@ def main() -> None:
         title=args.title,
         subtitle=args.subtitle,
         name_column=args.name_column,
+        marker_radius=args.marker_radius,
         center_lat=args.center_lat,
         center_lon=args.center_lon,
         center_name=args.center_name,

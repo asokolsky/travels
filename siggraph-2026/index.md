@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SIGGRAPH 2026
+title: SIGGRAPH
 ---
 
 # SIGGRAPH 2026
