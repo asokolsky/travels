@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Ritz-Carlton, Los Angeles",
+        "category": "hotel",
+        "address": "900 W Olympic Blvd, Los Angeles, CA 90015",
+        "distance": "starting point",
+        "notes": "SIGGRAPH 2026 hotel",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz-Carlton%20Los%20Angeles%2C%20900%20W%20Olympic%20Blvd%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2669619, 34.0452978]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ralphs 9th & Flower",
+        "category": "grocery store",
+        "address": "645 W 9th St, Los Angeles, CA 90015",
+        "distance": "about 0.5 mile from hotel",
+        "notes": "Closest practical full supermarket",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ralphs%2C%20645%20W%209th%20St%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2608354, 34.0455899]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whole Foods Market Downtown Los Angeles",
+        "category": "grocery store",
+        "address": "788 S Grand Ave, Los Angeles, CA 90017",
+        "distance": "about 0.8 mile from hotel",
+        "notes": "Prepared food and specialty groceries",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Whole%20Foods%20Market%2C%20788%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2576698, 34.0458779]
+      }
+    }
+  ]
+}

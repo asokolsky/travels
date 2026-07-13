@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Ritz-Carlton, Los Angeles",
+        "category": "hotel",
+        "address": "900 W Olympic Blvd, Los Angeles, CA 90015",
+        "distance": "starting point",
+        "notes": "SIGGRAPH 2026 hotel",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz-Carlton%20Los%20Angeles%2C%20900%20W%20Olympic%20Blvd%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2669619, 34.0452978]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fixins Soul Kitchen",
+        "category": "restaurant / soul food",
+        "address": "800 W Olympic Blvd, Los Angeles, CA 90015",
+        "distance": "about 0.1 mile from hotel",
+        "notes": "Closest restaurant; reservations useful for dinner or groups",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Fixins%20Soul%20Kitchen%2C%20800%20W%20Olympic%20Blvd%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2646054, 34.0446975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pine & Crane DTLA",
+        "category": "restaurant / Taiwanese",
+        "address": "1120 S Grand Ave, Unit 101, Los Angeles, CA 90015",
+        "distance": "about 0.5 mile from hotel",
+        "notes": "Casual all-purpose pick with breakfast service",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Pine%20%26%20Crane%20DTLA%2C%201120%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2626490, 34.0403207]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bottega Louie",
+        "category": "restaurant / Italian / patisserie",
+        "address": "700 S Grand Ave, Los Angeles, CA 90017",
+        "distance": "about 0.8 mile from hotel",
+        "notes": "Polished meal, pastries, coffee, or dessert",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Bottega%20Louie%2C%20700%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2565670, 34.0470390]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sonoratown",
+        "category": "restaurant / Sonoran Mexican",
+        "address": "208 E 8th St, Los Angeles, CA 90014",
+        "distance": "about 1.2 miles from hotel",
+        "notes": "Destination casual meal for tacos and burritos",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sonoratown%2C%20208%20E%208th%20St%2C%20Los%20Angeles%2C%20CA%2090014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2521722, 34.0415628]
+      }
+    }
+  ]
+}

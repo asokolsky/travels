@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="skills/static-marker-map/scripts/build_leaflet_map.py">
+  <title>SIGGRAPH 2026 Hotel and Groceries</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      color: #203035;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .shell {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      background: #f7f5ef;
+    }
+
+    header {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 18px;
+      background: #fffefa;
+      border-bottom: 1px solid #d9d4c7;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .meta {
+      margin-top: 4px;
+      color: #52616b;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .actions a {
+      border: 1px solid #0f766e;
+      border-radius: 6px;
+      color: #0f5e66;
+      font-size: 14px;
+      font-weight: 650;
+      line-height: 1;
+      padding: 9px 11px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .actions a:focus,
+    .actions a:hover {
+      background: #e3f3f1;
+    }
+
+    #map {
+      min-height: calc(100vh - 75px);
+      width: 100%;
+    }
+
+    .leaflet-popup-content {
+      margin: 13px 15px;
+    }
+
+    .popup-title {
+      color: #1d3138;
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 7px;
+    }
+
+    .leaflet-popup-content table {
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .leaflet-popup-content th {
+      color: #52616b;
+      font-weight: 650;
+      padding: 2px 10px 2px 0;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .leaflet-popup-content td {
+      padding: 2px 0;
+      vertical-align: top;
+    }
+
+    .center-marker span {
+      display: block;
+      width: 18px;
+      height: 18px;
+      background: #a23e2f;
+      border: 3px solid #fffefa;
+      border-radius: 50%;
+      box-shadow: 0 1px 6px rgb(32 47 54 / 0.35);
+    }
+
+    @media (max-width: 700px) {
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .actions {
+        justify-content: flex-start;
+      }
+
+      #map {
+        min-height: calc(100vh - 124px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <h1>SIGGRAPH 2026 Hotel and Groceries</h1>
+        <div class="meta">The Ritz-Carlton and two grocery stores within one mile</div>
+      </div>
+      <nav class="actions" aria-label="Map data">
+        <a href="index.html">Itinerary</a>
+        <a href="hotel-groceries.geojson">GeoJSON</a>
+      </nav>
+    </header>
+    <div id="map" aria-label="Marker map"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const POINTS = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Ritz-Carlton, Los Angeles",
+        "category": "hotel",
+        "address": "900 W Olympic Blvd, Los Angeles, CA 90015",
+        "distance": "starting point",
+        "notes": "SIGGRAPH 2026 hotel",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Ritz-Carlton%20Los%20Angeles%2C%20900%20W%20Olympic%20Blvd%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2669619,
+          34.0452978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ralphs 9th & Flower",
+        "category": "grocery store",
+        "address": "645 W 9th St, Los Angeles, CA 90015",
+        "distance": "about 0.5 mile from hotel",
+        "notes": "Closest practical full supermarket",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ralphs%2C%20645%20W%209th%20St%2C%20Los%20Angeles%2C%20CA%2090015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2608354,
+          34.0455899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whole Foods Market Downtown Los Angeles",
+        "category": "grocery store",
+        "address": "788 S Grand Ave, Los Angeles, CA 90017",
+        "distance": "about 0.8 mile from hotel",
+        "notes": "Prepared food and specialty groceries",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Whole%20Foods%20Market%2C%20788%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2576698,
+          34.0458779
+        ]
+      }
+    }
+  ]
+};
+    const CENTER = {"lat": null, "lon": null, "name": "Center", "note": "", "radiusKm": null};
+    const NAME_PROPERTY = "name";
+
+    const map = L.map("map", { preferCanvas: true });
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution: "&copy; OpenStreetMap contributors",
+    }).addTo(map);
+
+    const markers = L.geoJSON(POINTS, {
+      pointToLayer: (_feature, latlng) => L.circleMarker(latlng, {
+        radius: 5,
+        color: "#0f5e66",
+        weight: 1.5,
+        fillColor: "#1c9a93",
+        fillOpacity: 0.78,
+      }),
+      onEachFeature: (feature, layer) => {
+        const p = feature.properties || {};
+        layer.bindPopup(popupHtml(p));
+      },
+    }).addTo(map);
+
+    const bounds = markers.getBounds();
+    if (Number.isFinite(CENTER.lat) && Number.isFinite(CENTER.lon)) {
+      addCenterMarker(bounds);
+    }
+
+    if (bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [28, 28] });
+    } else if (Number.isFinite(CENTER.lat) && Number.isFinite(CENTER.lon)) {
+      map.setView([CENTER.lat, CENTER.lon], 10);
+    } else {
+      map.setView([0, 0], 2);
+    }
+
+    function addCenterMarker(bounds) {
+      if (Number.isFinite(CENTER.radiusKm) && CENTER.radiusKm > 0) {
+        L.circle([CENTER.lat, CENTER.lon], {
+          radius: CENTER.radiusKm * 1000,
+          color: "#a23e2f",
+          weight: 2,
+          opacity: 0.75,
+          fillColor: "#e6b451",
+          fillOpacity: 0.05,
+        }).addTo(map);
+      }
+
+      const centerIcon = L.divIcon({
+        className: "center-marker",
+        html: "<span></span>",
+        iconSize: [18, 18],
+        iconAnchor: [9, 9],
+      });
+      L.marker([CENTER.lat, CENTER.lon], {
+        icon: centerIcon,
+        title: CENTER.name,
+      })
+        .bindPopup(`<div class="popup-title">${escapeHtml(CENTER.name)}</div><div>${escapeHtml(CENTER.note)}</div>`)
+        .addTo(map);
+      bounds.extend([CENTER.lat, CENTER.lon]);
+    }
+
+    function popupHtml(properties) {
+      const title = properties[NAME_PROPERTY] || properties.name || properties.title || "Point";
+      const rows = Object.entries(properties)
+        .filter(([key, value]) => value !== null && value !== undefined && value !== "" && !isUrlField(key))
+        .map(([key, value]) => `<tr><th>${escapeHtml(labelize(key))}</th><td>${escapeHtml(formatValue(value))}</td></tr>`)
+        .join("");
+      const url = properties.google_maps_url || properties.maps_url || properties.url;
+      const link = url
+        ? `<p><a href="${escapeHtml(url)}" target="_blank" rel="noopener">Open map link</a></p>`
+        : "";
+      return `<div class="popup-title">${escapeHtml(title)}</div><table>${rows}</table>${link}`;
+    }
+
+    function isUrlField(key) {
+      return ["google_maps_url", "maps_url", "url"].includes(key);
+    }
+
+    function labelize(key) {
+      return String(key)
+        .replace(/_/g, " ")
+        .replace(/\b\w/g, (letter) => letter.toUpperCase());
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function formatValue(value) {
+      return typeof value === "number" ? value.toLocaleString("en-US") : value;
+    }
+  </script>
+</body>
+</html>

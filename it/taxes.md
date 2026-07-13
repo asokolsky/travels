@@ -545,3 +545,15 @@ These are not the primary authority for the cited rules above.
 - [Expats living in Rome](https://www.expatslivinginrome.com/category/legal/taxes-1/)
 - [taxing.it](https://taxing.it/technical-resources/)
 - [HTJ Tax: U.S. Retirement Accounts and Italian Wealth and Income Tax, posted November 18, 2025, updated February 27, 2026](https://htj.tax/2025/11/u-s-retirement-accounts-and-italian-wealth-and-income-tax/)
+
+## Curveballs
+
+Few things that jumps to my attention:
+
+- High progressive income taxes AND no "married filing jointly" status makes
+  income equilization between the spouses beneficial.
+- Roth IRA status not recognized in Italy, distributions are taxed as ordinary
+  income.
+- IRA is not recognized as a pension, while 401(k) is likely to be.
+- Preferential treatment of capital gains and dividends for individual stocks,
+  but not for US mutual funds.
