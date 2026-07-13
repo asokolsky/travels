@@ -73,10 +73,17 @@ All distances below are approximate walking distances from The Ritz-Carlton
 and are under two miles. As of July 13, 2026, the businesses' official pages
 list these downtown locations as operating; recheck hours before setting out.
 
-[Map: hotel and grocery stores](hotel-groceries.html)
-([GeoJSON](hotel-groceries.geojson))
-
 ### Grocery Stores
+
+<iframe
+  src="hotel-groceries.html"
+  title="Map of the SIGGRAPH hotel and nearby grocery stores"
+  style="border: 1px solid #d9d4c7; height: 520px; width: 100%;"
+  loading="lazy">
+</iframe>
+
+[Open the hotel and grocery map full screen](hotel-groceries.html)
+([GeoJSON](hotel-groceries.geojson)).
 
 - **Ralphs 9th & Flower** -- about 0.5 mile; the closest practical full
   supermarket for water, breakfast supplies, snacks, pharmacy items, and
@@ -97,8 +104,15 @@ matters.
 
 ### Restaurants
 
-[Map: hotel and restaurants](hotel-restaurants.html)
-([GeoJSON](hotel-restaurants.geojson))
+<iframe
+  src="hotel-restaurants.html"
+  title="Map of the SIGGRAPH hotel and nearby restaurants"
+  style="border: 1px solid #d9d4c7; height: 620px; width: 100%;"
+  loading="lazy">
+</iframe>
+
+[Open the hotel and restaurant map full screen](hotel-restaurants.html)
+([GeoJSON](hotel-restaurants.geojson)).
 
 - **Fixins Soul Kitchen** -- about 0.1 mile, in L.A. LIVE; the easy choice for
   soul food when energy is low after a conference day. Reservations are wise
