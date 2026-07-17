@@ -54,4 +54,4 @@ long-term Italian home or family presence in Italy.
 ## Source References
 
 1. <a id="source-1"></a>[Normattiva: TUIR Article 2, Italian income-tax residency rule](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art2)
-2. <a id="source-2"></a>[IRS: U.S.-Italy income tax treaty, Article 4 residency tie-breaker](https://www.irs.gov/pub/irs-trty/italy.pdf)
+1. <a id="source-2"></a>[IRS: U.S.-Italy income tax treaty, Article 4 residency tie-breaker](https://www.irs.gov/pub/irs-trty/italy.pdf)

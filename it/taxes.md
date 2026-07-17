@@ -4,8 +4,6 @@ parent: Italy
 layout: page
 ---
 
-# Italian Taxes
-
 Assumptions:
 
 - you are an Italian [tax resident](tax-residency.html).
@@ -214,10 +212,12 @@ ordinary capital losses do not offset it.
 
 ### U.S. Mutual Funds and Other Non-Harmonized Funds
 
-Do not treat a U.S.-domiciled mutual fund as if it were simply an individual
-stock or an EU UCITS fund. The SEC describes mutual funds and ETFs as pooled
-investment products, and a U.S.-domiciled mutual fund is generally not an
-EU/EEA harmonized fund for Italian reporting purposes. [[15]](#source-15)
+This section addresses Italian tax classification. For the separate U.S. PFIC
+rules and EU retail-access restrictions that affect fund selection, see
+[PFIC vs. MiFID II](PFIC-vs-MiFID-II.html).
+
+Do not treat a U.S.-domiciled mutual fund as if it were an individual stock or
+an EU/EEA harmonized fund for Italian reporting purposes.
 
 For 2025 income reported on `Modello 730/2026`, `Quadro D` line D2 code 4
 specifically includes proceeds from foreign collective investment undertakings
@@ -228,13 +228,10 @@ progressive-IRPEF taxable income when no final withholding or substitute-tax
 path applies, rather than as ordinary 26% net capital gains. That also means
 the usual capital-loss offset rules may not help. [[1]](#source-1)
 
-Bottom line: an Italian tax resident should generally avoid holding or adding
-U.S.-domiciled mutual funds in taxable accounts unless an Italian tax preparer
-has confirmed the exact classification and reporting treatment. The same
-caution can apply to U.S.-domiciled ETFs. Prefer direct securities, instruments
-with known Italian tax treatment, or adviser-reviewed fund alternatives.
-Existing U.S. retirement-account holdings need separate treaty and account
-analysis; do not assume the taxable-brokerage rule is the whole answer.
+Before holding or adding a U.S.-domiciled mutual fund or ETF in a taxable
+account, have an Italian tax preparer confirm its classification and reporting
+treatment. Existing U.S. retirement-account holdings need separate treaty and
+account analysis; do not assume the taxable-brokerage rule is the whole answer.
 
 ### U.S. Retirement Accounts
 
@@ -364,9 +361,9 @@ Planning assumptions:
 - The ordinary income is modeled as one spouse's income. If pension / Social
   Security income is split between spouses, calculate IRPEF and local
   addizionali separately for each spouse.
-- Healthcare is not an Italian income tax. The examples use the repo's
-  [Italy-resident household healthcare placeholder](../../retirement/tax-paths.html)
-  of €4,000/year for two voluntary SSN enrollments before private/top-up
+- Healthcare is not an Italian income tax. The examples use an Italy-resident
+  household healthcare placeholder of €4,000/year for two voluntary SSN
+  enrollments before private/top-up
   coverage. If only one spouse needs the voluntary SSN contribution, subtract
   €2,000 from the totals.
 
@@ -396,8 +393,8 @@ stack.
 
 ### Martinsicuro - Article 24-ter 7% Regime
 
-Martinsicuro is a qualifying 7% pensioner-regime municipality in the repo's
-[eligible comuni](../7-percent-munis.html) screen: Abruzzo, population 16,058,
+Martinsicuro is a qualifying 7% pensioner-regime municipality: Abruzzo,
+population 16,058,
 below the current Article 24-ter 30,000-resident ceiling. Article 24-ter of the
 TUIR and the 730/2026 instructions say the option can apply a 7% substitute tax
 to qualifying foreign-source income for the year of transfer and the next nine
@@ -524,7 +521,6 @@ succession-tax rate. [[22]](#source-22)
 1. <a id="source-12"></a>[Normattiva: TUIR Article 24-ter, 7% pensioner regime](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art24ter)
 1. <a id="source-13"></a>[Normattiva: TUIR Article 49, employment income and pension income](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art49)
 1. <a id="source-14"></a>[Agenzia Entrate: response 616/2021 on U.S. IRA SEPP payments and Article 24-ter](https://www.agenziaentrate.gov.it/portale/documents/20143/3788714/Risposta+all%27interpello+n.+616+del+20+settembre+2021.pdf/e2228199-24e9-fd07-0ea6-9147456cbb6c?browser=1)
-1. <a id="source-15"></a>[SEC: Mutual Funds and ETFs, A Guide for Investors](https://www.sec.gov/investor/pubs/sec-guide-to-mutual-funds.pdf)
 1. <a id="source-16"></a>[European Central Bank: euro foreign exchange reference rates, historical XML](https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml)
 1. <a id="source-17"></a>[Normattiva: Law 160/2019 Article 1, IMU rules](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2019-12-27;160~art1)
 1. <a id="source-18"></a>[Comune di Torino: IMU office and local guidance](https://www.comune.torino.it/amministrazione/ufficio-imu-gestione-rapporti-lutenza-imu)
@@ -542,7 +538,7 @@ These are not the primary authority for the cited rules above.
 - [Choice of Law in Italian-American Cross-Border Successions](https://www.mylawyerinitaly.com/choice-of-law-in-italian-american-cross-border-successions/inheritance/)
 - [Taxes for US expats](https://www.expatslivinginrome.com/taxes-for-us-expats-in-italy/)
 - [Tax benefits of fiscal residence in Italy](https://www.expatslivinginrome.com/tax-benefits-fiscal-residence-italy/)
-- [Expats living in Rome](https://www.expatslivinginrome.com/category/legal/taxes-1/)
+- [Expats Living in Rome: Finance](https://www.expatslivinginrome.com/category/finance/)
 - [taxing.it](https://taxing.it/technical-resources/)
 - [HTJ Tax: U.S. Retirement Accounts and Italian Wealth and Income Tax, posted November 18, 2025, updated February 27, 2026](https://htj.tax/2025/11/u-s-retirement-accounts-and-italian-wealth-and-income-tax/)
 
