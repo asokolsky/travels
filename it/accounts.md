@@ -1,8 +1,10 @@
 ---
 title: Relevant Accounts
-parent: Italy
+parent: Finances
 layout: page
 ---
+
+# Relevant Accounts
 
 For a U.S. citizen living in Italy, no single account does every job well. A
 practical setup usually has four layers:

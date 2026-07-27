@@ -1,8 +1,10 @@
 ---
 title: Italian Taxes
-parent: Italy
+parent: Finances
 layout: page
 ---
+
+# Italian Taxes
 
 Assumptions:
 
@@ -393,8 +395,8 @@ stack.
 
 ### Martinsicuro - Article 24-ter 7% Regime
 
-Martinsicuro is a qualifying 7% pensioner-regime municipality: Abruzzo,
-population 16,058,
+Martinsicuro is a qualifying 7% pensioner-regime municipality in the repo's
+[eligible comuni](../7-percent-munis.html) screen: Abruzzo, population 16,058,
 below the current Article 24-ter 30,000-resident ceiling. Article 24-ter of the
 TUIR and the 730/2026 instructions say the option can apply a 7% substitute tax
 to qualifying foreign-source income for the year of transfer and the next nine
@@ -538,7 +540,7 @@ These are not the primary authority for the cited rules above.
 - [Choice of Law in Italian-American Cross-Border Successions](https://www.mylawyerinitaly.com/choice-of-law-in-italian-american-cross-border-successions/inheritance/)
 - [Taxes for US expats](https://www.expatslivinginrome.com/taxes-for-us-expats-in-italy/)
 - [Tax benefits of fiscal residence in Italy](https://www.expatslivinginrome.com/tax-benefits-fiscal-residence-italy/)
-- [Expats Living in Rome: Finance](https://www.expatslivinginrome.com/category/finance/)
+- [Expats living in Rome](https://www.expatslivinginrome.com/category/legal/taxes-1/)
 - [taxing.it](https://taxing.it/technical-resources/)
 - [HTJ Tax: U.S. Retirement Accounts and Italian Wealth and Income Tax, posted November 18, 2025, updated February 27, 2026](https://htj.tax/2025/11/u-s-retirement-accounts-and-italian-wealth-and-income-tax/)
 
