@@ -190,27 +190,37 @@ Map: [Day 3 Split walk: Diocletian's Palace -> Cathedral of Saint Domnius -> Riv
 - Start around 08:00 with the nearly empty Peristyle, Vestibule, and narrow
   palace lanes. Enter the palace substructures when they open at 08:30; as of
   August 2, 2026, their posted daily hours are 08:30-20:00. [[56]](#source-56)
+- Strongest guided option: ask Maja Benzon about a private two-hour
+  Diocletian's Palace and Old Town walk. Rick Steves forum travelers describe
+  her as a Rick-recommended guide and reported excellent tours as recently as
+  September 2025; confirm August 29 availability and the meeting point directly
+  before building the morning around her. [[59]](#source-59)[[60]](#source-60)
 - Climb the cathedral bell tower only if heights and exposed stairs are
   comfortable. Otherwise, spend that time in the substructures or the compact
   Split City Museum in Papalic Palace ([map](https://www.google.com/maps/search/?api=1&query=Split%20City%20Museum%2C%20Split%2C%20Croatia)).
 - Continue through the Golden Gate to the Gregory of Nin statue
   ([map](https://www.google.com/maps/search/?api=1&query=Gregory%20of%20Nin%20Statue%2C%20Split%2C%20Croatia)), then loop through Pjaca
   ([map](https://www.google.com/maps/search/?api=1&query=People%27s%20Square%2C%20Split%2C%20Croatia)) and the old lanes rather than treating the palace as a single monument.
-- Take a slow lunch, then protect the hottest part of the afternoon. Choose a
-  museum or a hotel break instead of forcing a long exposed walk.
+- Take a slow lunch, then protect the hottest part of the afternoon. The
+  Ethnographic Museum ([map](https://www.google.com/maps/search/?api=1&query=Ethnographic%20Museum%20Split%2C%20Croatia)) is the most convenient compact museum because it sits inside the palace near
+  the Vestibule. As of August 2, 2026, its posted Saturday hours are 10:00-17:00
+  and adult admission is EUR 7. Rick Steves forum travelers specifically praise
+  it as a useful cultural counterweight to the Roman story. [[61]](#source-61)[[62]](#source-62)
 - For the late afternoon, choose one branch:
   - **Marjan branch:** walk through [Varos](https://en.wikipedia.org/wiki/Varo%C5%A1,_Split) to the First Marjan Viewpoint
     ([map](https://www.google.com/maps/search/?api=1&query=Prva%20Vidilica%20Na%20Marjanu%2C%20Split%2C%20Croatia)). Continue farther only if the temperature and energy are good; the first viewpoint already delivers the essential city view. [[57]](#source-57)
   - **Swim branch:** use [Bacvice](https://en.wikipedia.org/wiki/Ba%C4%8Dvice) for the easiest close-to-center swim and a chance to see picigin, or take a taxi to Kasjuni
     ([map](https://www.google.com/maps/search/?api=1&query=Kasjuni%20Beach%2C%20Split%2C%20Croatia)) for a prettier pebble cove below Marjan. Do not walk to Kasjuni in the midday heat. [[58]](#source-58)
+  - **Art branch:** make the [Ivan Mestrovic Gallery](https://en.wikipedia.org/wiki/Ivan_Me%C5%A1trovi%C4%87_Gallery) the substantial afternoon destination, then continue to a nearby Marjan-side viewpoint or beach only if energy allows. Forum travelers call the gallery a Split highlight; as of August 2, 2026, the museum posts Tuesday-Sunday hours of 09:00-19:00. [[61]](#source-61)[[63]](#source-63)
 - Return to the [Riva](https://en.wikipedia.org/wiki/Split,_Croatia#Riva) for the evening passeggiata, then revisit the palace after dark when the day-trip traffic has thinned.
 - Return to the same Split apartment for the second night; respect the 22:00 quiet-hours start and pack for the 10:00 checkout.
 
 Best stops:
 - [Split](https://en.wikipedia.org/wiki/Split,_Croatia) palace core before the heaviest daytime crowds. [[2]](#source-2)[[4]](#source-4)
 - The palace substructures for the clearest view of the Roman building's original footprint. [[56]](#source-56)
+- The Ethnographic Museum for Dalmatian dress, crafts, and everyday culture without leaving the palace core. [[61]](#source-61)[[62]](#source-62)
 - Pjaca, the Fruit Square ([map](https://www.google.com/maps/search/?api=1&query=Vocni%20Trg%2C%20Split%2C%20Croatia)), and [Varos](https://en.wikipedia.org/wiki/Varo%C5%A1,_Split) for the medieval and neighborhood layers outside the imperial core.
-- [Marjan](https://en.wikipedia.org/wiki/Marjan) for a green break and city-and-sea views.
+- [Marjan](https://en.wikipedia.org/wiki/Marjan) for a green break and city-and-sea views, or the Ivan Mestrovic Gallery for the day's major art stop. [[63]](#source-63)
 
 Food notes:
 - Use the second Split day for the meal you most care about. Reserve Konoba Fetivi or K.uzina, or choose Dvor for a longer sea-view dinner; keep the first night more spontaneous. [[15]](#source-15)[[25]](#source-25)[[26]](#source-26)[[27]](#source-27)
@@ -219,9 +229,10 @@ Food notes:
 - Leave room for coffee or gelato on the Riva instead of scheduling every hour; the value of the second night is being able to revisit the center after crowds and heat ease.
 
 Skip note: Do not use the extra day to add another coastal town, and do not try
-to combine the full palace circuit, a long Marjan hike, and a remote beach.
-Choose Marjan or a swim for the afternoon. The point of the second night is to
-experience Split beyond an evening walkthrough.
+to combine a guided palace circuit, both museums, a long Marjan hike, and a
+remote beach. Choose the Ethnographic Museum as a short palace-core addition;
+for the afternoon, choose Marjan, a swim, or the Mestrovic Gallery. The point of
+the second night is to experience Split beyond an evening walkthrough.
 
 ## Day 4: Split to Plitvice / Rastoke, Croatia, 8/30
 
@@ -336,3 +347,8 @@ Skip note: Skip [Postojna Cave](https://en.wikipedia.org/wiki/Postojna_Cave), [S
 56. <a id="source-56"></a>[Split City Museum: locations and current opening hours](https://mgs.hr/en/visit-us/plan-a-visit/)
 57. <a id="source-57"></a>[Split Tourist Board: Marjan](https://visitsplit.com/en/506/diocletians-palace)
 58. <a id="source-58"></a>[Split Tourist Board: beaches](https://visitsplit.com/en/1222/beaches)
+59. <a id="source-59"></a>[Rick Steves Travel Forum: 2026 Split guide recommendations](https://community.ricksteves.com/travel-forum/croatia/croatia-split-and-dubrovnik-area-guide-recommendations)
+60. <a id="source-60"></a>[Rick Steves Travel Forum: two-hour Split tour with Maja Benzon](https://community.ricksteves.com/travel-forum/croatia/now-have-an-extra-two-nights-in-croatia-where-to-spend-it-what-to-do)
+61. <a id="source-61"></a>[Rick Steves Travel Forum: Split museums and two-night tradeoffs](https://community.ricksteves.com/travel-forum/croatia/is-split-worth-it)
+62. <a id="source-62"></a>[Ethnographic Museum of Split: official hours and admission](https://etnografski-muzej-split.hr/en/museum/general-information)
+63. <a id="source-63"></a>[Ivan Mestrovic Museums: official Split gallery hours](https://mestrovic.hr/naslovnica-nova/)
