@@ -95,13 +95,16 @@ Rick Steves reference links:
 
 ## Route Summary
 
-Full-trip map: [Dubrovnik -> Ston -> Pocitelj -> Mostar -> Blagaj -> Brela -> Split -> Rastoke -> Plitvice Lakes -> Mirco's, Montevecchia](https://www.google.com/maps/dir/?api=1&origin=Dubrovnik%2C%20Croatia&destination=Via%20Delle%20Sorgenti%2049%2C%2023874%20Montevecchia%20LC%2C%20Italy&travelmode=driving&waypoints=Ston%2C%20Croatia%7CPocitelj%2C%20Bosnia%20and%20Herzegovina%7CMostar%2C%20Bosnia%20and%20Herzegovina%7CBlagaj%2C%20Bosnia%20and%20Herzegovina%7CBrela%2C%20Croatia%7CSplit%2C%20Croatia%7CRastoke%2C%20Slunj%2C%20Croatia%7CPlitvice%20Lakes%20National%20Park%2C%20Croatia)
+Full-trip map: [Dubrovnik Airbnb -> Ston -> Pocitelj -> Mostar Airbnb -> Blagaj -> Brela -> Split Airbnb -> Rastoke -> Plitvice Lakes -> Mirco's, Montevecchia](https://www.google.com/maps/dir/?api=1&origin=Sreserska%20ulica%202%2C%20Dubrovnik%2C%20Croatia&destination=Via%20Delle%20Sorgenti%2049%2C%2023874%20Montevecchia%20LC%2C%20Italy&travelmode=driving&waypoints=Ston%2C%20Croatia%7CPocitelj%2C%20Bosnia%20and%20Herzegovina%7COne%C5%A1%C4%87ukova%2039%20B%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina%7CBlagaj%2C%20Bosnia%20and%20Herzegovina%7CBrela%2C%20Croatia%7CUlica%20Antuna%20Gustava%20Mato%C5%A1a%2027%2C%20Split%2C%20Croatia%7CRastoke%2C%20Slunj%2C%20Croatia%7CPlitvice%20Lakes%20National%20Park%2C%20Croatia)
 
 Static stop map: [Balkans 2026 stops](balkans-2026-stops.html) ([GeoJSON](balkans-2026-stops.geojson)). This maps the route stops, the Dubrovnik core walk, and the named optional driver-change stops; restaurant and lodging candidates stay in the notes below.
 
 ## Dubrovnik Stay: Dubrovnik, Croatia, 8/25-8/26
 
 Estimated driving: none if you are already in town. If this is arrival day with a rental car, avoid driving into the old center and confirm parking or drop-off logistics before committing to an Old Town hotel.
+
+Confirmed stay: Apartment Dora, Sreserska ulica 2
+([map](https://www.google.com/maps/search/?api=1&query=Sreserska%20ulica%202%2C%20Dubrovnik%2C%20Croatia)), for four guests. Check-in is Tuesday, August 25 at 15:00; checkout is Thursday, August 27 at 10:00. Entry is by lockbox, but the reservation says to contact the host for the final check-in instructions. Wi-Fi details should appear 48 hours before arrival.
 
 Map: [Day 0 Dubrovnik core walk: Pile Gate -> Walls -> Stradun -> Sponza Palace -> Rector's Palace -> Buza Bar -> Dubrovnik Cable Car](https://www.google.com/maps/dir/?api=1&origin=Pile%20Gate%2C%20Dubrovnik%2C%20Croatia&destination=Dubrovnik%20Cable%20Car%2C%20Dubrovnik%2C%20Croatia&travelmode=walking&waypoints=Walls%20of%20Dubrovnik%2C%20Dubrovnik%2C%20Croatia%7CStradun%2C%20Dubrovnik%2C%20Croatia%7CSponza%20Palace%2C%20Dubrovnik%2C%20Croatia%7CRector%27s%20Palace%2C%20Dubrovnik%2C%20Croatia%7CBuza%20Bar%2C%20Dubrovnik%2C%20Croatia)
 
@@ -121,10 +124,9 @@ Food notes:
 - For dinner, Taj Mahal ([map](https://www.google.com/maps/search/?api=1&query=Taj%20Mahal%2C%20Dubrovnik%2C%20Croatia)) is the Bosnian/Balkan pick with Michelin Bib Gourmand recognition, Kamenice ([map](https://www.google.com/maps/search/?api=1&query=Kamenice%2C%20Dubrovnik%2C%20Croatia)) is the simple old-town seafood/oyster option, and Kopun ([map](https://www.google.com/maps/search/?api=1&query=Kopun%2C%20Dubrovnik%2C%20Croatia)) is better for a composed Croatian meal near the Jesuit steps. [[12]](#source-12)[[18]](#source-18)[[19]](#source-19)[[20]](#source-20)
 - Reserve dinner if you care where you eat, or arrange a hosted/local meal ahead if that is more your style. Dubrovnik's old town is compact, cruise-traffic-heavy, and easy to overpay in if you improvise at peak hour. [[12]](#source-12)[[13]](#source-13)
 
-Lodging notes:
-- If you want to sleep inside the walls, Scalini Palace ([map](https://www.google.com/maps/search/?api=1&query=Scalini%20Palace%2C%20Dubrovnik%2C%20Croatia)) gives you Old Town immediacy near [Stradun](https://en.wikipedia.org/wiki/Stradun_%28street%29), but assume pedestrian luggage logistics and no simple car access. [[46]](#source-46)
-- Hotel Excelsior ([map](https://www.google.com/maps/search/?api=1&query=Hotel%20Excelsior%20Dubrovnik%2C%20Croatia)) is the polished seaside/Old Town splurge with easier arrival than sleeping inside the walls. [[29]](#source-29)
-- Hotel More ([map](https://www.google.com/maps/search/?api=1&query=Hotel%20More%20Dubrovnik%2C%20Croatia)) in Lapad is calmer and better if you care more about parking, sea views, and bus/taxi access than waking up inside the old town. [[30]](#source-30)
+Reservation notes:
+- Ask the host about parking before arrival; the saved reservation does not state that parking is included.
+- Save the lockbox instructions offline when they arrive, and do not plan to leave for Mostar later than the 10:00 checkout.
 
 Skip note: Do not try to do the walls, [Lokrum](https://en.wikipedia.org/wiki/Lokrum), [Srđ](https://en.wikipedia.org/wiki/Sr%C4%91), multiple museums, and a long dinner in one relaxed day. Pick the walls plus one major add-on.
 
@@ -132,7 +134,7 @@ Skip note: Do not try to do the walls, [Lokrum](https://en.wikipedia.org/wiki/Lo
 
 Estimated driving: 3.25 to 3.75 hours total, plus border time.
 
-Map: [Day 1 route: Dubrovnik -> Ston -> Pocitelj -> Mostar](https://www.google.com/maps/dir/?api=1&origin=Dubrovnik%2C%20Croatia&destination=Mostar%2C%20Bosnia%20and%20Herzegovina&travelmode=driving&waypoints=Ston%2C%20Croatia%7CPocitelj%2C%20Bosnia%20and%20Herzegovina)
+Map: [Day 1 route: Dubrovnik Airbnb -> Ston -> Pocitelj -> Mostar Airbnb](https://www.google.com/maps/dir/?api=1&origin=Sreserska%20ulica%202%2C%20Dubrovnik%2C%20Croatia&destination=One%C5%A1%C4%87ukova%2039%20B%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina&travelmode=driving&waypoints=Ston%2C%20Croatia%7CPocitelj%2C%20Bosnia%20and%20Herzegovina)
 
 - Leave [Dubrovnik](https://en.wikipedia.org/wiki/Dubrovnik) early.
 - Stop in [Ston](https://en.wikipedia.org/wiki/Ston) and [Mali Ston](https://en.wikipedia.org/wiki/Mali_Ston) for the walls, salt pans, and oysters.
@@ -148,8 +150,8 @@ Food notes:
 - Around [Ston](https://en.wikipedia.org/wiki/Ston) / [Mali Ston](https://en.wikipedia.org/wiki/Mali_Ston), make oysters the point: Kapetanova Kuca ([map](https://www.google.com/maps/search/?api=1&query=Kapetanova%20Kuca%2C%20Mali%20Ston%2C%20Croatia)) is the more established seafood stop, while Bota Sare ([map](https://www.google.com/maps/search/?api=1&query=Bota%20Sare%2C%20Mali%20Ston%2C%20Croatia)) is another classic Mali Ston oyster option. Keep this as lunch only if it does not endanger the border timing. [[21]](#source-21)[[22]](#source-22)
 - In [Mostar](https://en.wikipedia.org/wiki/Mostar), aim for Bosnian food near the bridge or Coppersmiths' Street. Good candidates are Tima-Irma ([map](https://www.google.com/maps/search/?api=1&query=Tima-Irma%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina)) for grilled meats/cevapi, Sadrvan ([map](https://www.google.com/maps/search/?api=1&query=Sadrvan%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina)) for a traditional courtyard meal, Hindin Han ([map](https://www.google.com/maps/search/?api=1&query=Hindin%20Han%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina)) for riverside setting, and Harmonija ([map](https://www.google.com/maps/search/?api=1&query=Harmonija%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina)) for bridge views. [[14]](#source-14)[[23]](#source-23)
 
-Lodging notes:
-- In [Mostar](https://en.wikipedia.org/wiki/Mostar), sleep in or just above the old town so sunrise and sunset around [Stari Most](https://en.wikipedia.org/wiki/Stari_Most) are effortless. Hotel-Restaurant Kriva Cuprija ([map](https://www.google.com/maps/search/?api=1&query=Hotel-Restaurant%20Kriva%20Cuprija%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina)) is the atmospheric pick in the UNESCO old-town zone, while Hotel Almira ([map](https://www.google.com/maps/search/?api=1&query=Hotel%20Almira%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina)) is a practical old-town base near the bridge. [[31]](#source-31)[[32]](#source-32)
+Confirmed stay: Lux apartment, Onešćukova 39 B, first floor
+([map](https://www.google.com/maps/search/?api=1&query=One%C5%A1%C4%87ukova%2039%20B%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina)), for four guests. Check-in is Thursday, August 27 at 15:00; checkout is Friday, August 28 at 11:00. Building staff handle check-in. The host says to drive to the closest reachable point near the bridge, so request an exact unloading and overnight-parking pin before leaving Dubrovnik.
 
 Skip [Kravica](https://en.wikipedia.org/wiki/Kravica_%28waterfall%29) unless the border crossing is unusually quick. [[1]](#source-1)[[9]](#source-9)
 
@@ -157,13 +159,14 @@ Skip [Kravica](https://en.wikipedia.org/wiki/Kravica_%28waterfall%29) unless the
 
 Estimated driving: 3.5 to 4 hours total, plus border time. Skip [Imotski](https://en.wikipedia.org/wiki/Imotski) if the border is slow. [[1]](#source-1)[[9]](#source-9)
 
-Map: [Day 2 route: Mostar -> Blagaj -> Brela -> Split](https://www.google.com/maps/dir/?api=1&origin=Mostar%2C%20Bosnia%20and%20Herzegovina&destination=Split%2C%20Croatia&travelmode=driving&waypoints=Blagaj%2C%20Bosnia%20and%20Herzegovina%7CBrela%2C%20Croatia)
+Map: [Day 2 route: Mostar Airbnb -> Blagaj -> Brela -> Split Airbnb](https://www.google.com/maps/dir/?api=1&origin=One%C5%A1%C4%87ukova%2039%20B%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina&destination=Ulica%20Antuna%20Gustava%20Mato%C5%A1a%2027%2C%20Split%2C%20Croatia&travelmode=driving&waypoints=Blagaj%2C%20Bosnia%20and%20Herzegovina%7CBrela%2C%20Croatia)
 
 - See [Mostar](https://en.wikipedia.org/wiki/Mostar) early before the day-trip crowds.
 - Detour to [Blagaj](https://en.wikipedia.org/wiki/Blagaj,_Mostar) for the [Buna spring](https://en.wikipedia.org/wiki/Vrelo_Bune) and tekke.
 - Cross back into [Croatia](https://en.wikipedia.org/wiki/Croatia).
 - Stop at [Brela](https://en.wikipedia.org/wiki/Brela) or [Baska Voda](https://en.wikipedia.org/wiki/Ba%C5%A1ka_Voda) for a beach walk, not a long beach day. [[6]](#source-6)
 - Begin a two-night stay in [Split](https://en.wikipedia.org/wiki/Split,_Croatia), protecting both an evening and the following full day for the palace core and waterfront.
+- Checkout in Mostar is 11:00, but an earlier departure will make Blagaj, the border, and the Brela stop less rushed. Coordinate the Split arrival because the host greets guests in person.
 
 Best stops:
 - [Blagaj Tekke](https://en.wikipedia.org/wiki/Vrelo_Bune) and [Buna spring](https://en.wikipedia.org/wiki/Vrelo_Bune). [[1]](#source-1)
@@ -173,6 +176,9 @@ Best stops:
 Food notes:
 - On the [Brela](https://en.wikipedia.org/wiki/Brela) / [Baska Voda](https://en.wikipedia.org/wiki/Ba%C5%A1ka_Voda) stop, keep food quick unless you are ahead of schedule. Restaurant Punta Rata ([map](https://www.google.com/maps/search/?api=1&query=Restaurant%20Punta%20Rata%2C%20Brela%2C%20Croatia)) is the easiest beach-adjacent choice, Tavern Galinac ([map](https://www.google.com/maps/search/?api=1&query=Konoba%20Galinac%2C%20Brela%2C%20Croatia)) is better if you want a fuller Dalmatian tavern meal, and Restaurant Plima ([map](https://www.google.com/maps/search/?api=1&query=Restaurant%20Plima%2C%20Brela%2C%20Croatia)) is another Brela tourism-listed option. [[24]](#source-24)
 - If sleeping in [Split](https://en.wikipedia.org/wiki/Split,_Croatia), choose by mood: Konoba Fetivi ([map](https://www.google.com/maps/search/?api=1&query=Konoba%20Fetivi%2C%20Split%2C%20Croatia)) for traditional Dalmatian cooking, K.uzina ([map](https://www.google.com/maps/search/?api=1&query=K.uzina%2C%20Split%2C%20Croatia)) for a Michelin Bib Gourmand value meal, Dvor ([map](https://www.google.com/maps/search/?api=1&query=Dvor%2C%20Split%2C%20Croatia)) for a splurge with sea-view garden setting, Buffet Fife ([map](https://www.google.com/maps/search/?api=1&query=Buffet%20Fife%2C%20Split%2C%20Croatia)) for a busy value-oriented local meal, or Galija ([map](https://www.google.com/maps/search/?api=1&query=Galija%2C%20Split%2C%20Croatia)) for casual seafood pizza/gnocchi near the promenade. [[15]](#source-15)[[25]](#source-25)[[26]](#source-26)[[27]](#source-27)
+
+Confirmed stay: City dream Karla, Ulica Antuna Gustava Matoša 27
+([map](https://www.google.com/maps/search/?api=1&query=Ulica%20Antuna%20Gustava%20Mato%C5%A1a%2027%2C%20Split%2C%20Croatia)), for four guests. Check-in is Friday, August 28 at 14:00; checkout is Sunday, August 30 at 10:00. The host greets guests, so send an arrival estimate after clearing the Croatian border. Quiet hours are 22:00-07:00, and Wi-Fi details should appear 48 hours before arrival.
 
 ## Day 3: Full Day in Split, Croatia, 8/29
 
@@ -198,7 +204,7 @@ Map: [Day 3 Split walk: Diocletian's Palace -> Cathedral of Saint Domnius -> Riv
   - **Swim branch:** use [Bacvice](https://en.wikipedia.org/wiki/Ba%C4%8Dvice) for the easiest close-to-center swim and a chance to see picigin, or take a taxi to Kasjuni
     ([map](https://www.google.com/maps/search/?api=1&query=Kasjuni%20Beach%2C%20Split%2C%20Croatia)) for a prettier pebble cove below Marjan. Do not walk to Kasjuni in the midday heat. [[58]](#source-58)
 - Return to the [Riva](https://en.wikipedia.org/wiki/Split,_Croatia#Riva) for the evening passeggiata, then revisit the palace after dark when the day-trip traffic has thinned.
-- Sleep in the same Split hotel for the second night; pack for an efficient departure the next morning.
+- Return to the same Split apartment for the second night; respect the 22:00 quiet-hours start and pack for the 10:00 checkout.
 
 Best stops:
 - [Split](https://en.wikipedia.org/wiki/Split,_Croatia) palace core before the heaviest daytime crowds. [[2]](#source-2)[[4]](#source-4)
@@ -219,11 +225,11 @@ experience Split beyond an evening walkthrough.
 
 ## Day 4: Split to Plitvice / Rastoke, Croatia, 8/30
 
-Estimated driving: 3.25 to 3.75 hours total, depending on traffic and the Rastoke stop.
+Estimated driving: 3.25 to 3.75 hours total, depending on traffic and the Rastoke stop. Checkout from the Split apartment is 10:00.
 
-Map: [Day 4 route: Split -> Rastoke -> Plitvice Lakes](https://www.google.com/maps/dir/?api=1&origin=Split%2C%20Croatia&destination=Plitvice%20Lakes%20National%20Park%2C%20Croatia&travelmode=driving&waypoints=Rastoke%2C%20Slunj%2C%20Croatia)
+Map: [Day 4 route: Split Airbnb -> Rastoke -> Plitvice Lakes](https://www.google.com/maps/dir/?api=1&origin=Ulica%20Antuna%20Gustava%20Mato%C5%A1a%2027%2C%20Split%2C%20Croatia&destination=Plitvice%20Lakes%20National%20Park%2C%20Croatia&travelmode=driving&waypoints=Rastoke%2C%20Slunj%2C%20Croatia)
 
-- Leave Split after breakfast and drive inland to [Rastoke](https://en.wikipedia.org/wiki/Rastoke), the waterfall village near [Slunj](https://en.wikipedia.org/wiki/Slunj).
+- Check out by 10:00 and drive inland to [Rastoke](https://en.wikipedia.org/wiki/Rastoke), the waterfall village near [Slunj](https://en.wikipedia.org/wiki/Slunj). Ask the host in advance where the car may remain while loading luggage.
 - Keep Rastoke to a walk and lunch rather than turning it into a second major sightseeing day.
 - Sleep near [Plitvice Lakes](https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park) for the earliest park start. Hotel Jezero ([map](https://www.google.com/maps/search/?api=1&query=Hotel%20Jezero%2C%20Plitvice%20Lakes%20National%20Park%2C%20Croatia)) is the most convenient in-park choice near Entrance 2; Plitvice Miric Inn ([map](https://www.google.com/maps/search/?api=1&query=Plitvice%20Miric%20Inn%2C%20Croatia)) and Hotel Degenija ([map](https://www.google.com/maps/search/?api=1&query=Hotel%20Degenija%2C%20Plitvice%20Lakes%2C%20Croatia)) are nearby alternatives. [[38]](#source-38)[[39]](#source-39)[[40]](#source-40)
 - Do dinner where you sleep rather than driving around after dark. Hours can be seasonal, so confirm the restaurant when booking. [[17]](#source-17)
@@ -311,10 +317,6 @@ Skip note: Skip [Postojna Cave](https://en.wikipedia.org/wiki/Postojna_Cave), [S
 25. <a id="source-25"></a>[MICHELIN Guide: Konoba Fetivi, Split](https://guide.michelin.com/gb/en/split-dalmatia/split/restaurant/konoba-fetivi?millesime=km573e)
 26. <a id="source-26"></a>[MICHELIN Guide: K.uzina, Split](https://guide.michelin.com/us/en/split-dalmatia/split/restaurant/k-uzina)
 27. <a id="source-27"></a>[MICHELIN Guide: Dvor, Split](https://guide.michelin.com/us/en/split-dalmatia/split/restaurant/dvor)
-29. <a id="source-29"></a>[Hotel Excelsior Dubrovnik official site](https://www.adriaticluxuryhotels.com/hotel-excelsior-dubrovnik)
-30. <a id="source-30"></a>[Hotel More Dubrovnik official site](https://www.hotel-more.hr/en/about-us)
-31. <a id="source-31"></a>[Hotel-Restoran Kriva Cuprija official site](https://hotel-mostar.ba/)
-32. <a id="source-32"></a>[Hotel Almira Mostar official site](https://www.almira-hotel.ba/en/)
 38. <a id="source-38"></a>[Hotel Jezero, Plitvice Lakes National Park](https://np-plitvicka-jezera.hr/en/plan-your-visit/hotels-and-camps/hotel-jezero/)
 39. <a id="source-39"></a>[Plitvice Miric Inn official site](https://www.plitvice-croatia.com/)
 40. <a id="source-40"></a>[Lika Destination: Hotel & Restaurant Degenija](https://www.lika-destination.hr/gastronomy/gastro/281/hotel-restaurant-degenija)
@@ -322,7 +324,6 @@ Skip note: Skip [Postojna Cave](https://en.wikipedia.org/wiki/Postojna_Cave), [S
 43. <a id="source-43"></a>[City Walls Dubrovnik official site](https://citywallsdubrovnik.hr/)
 44. <a id="source-44"></a>[Dubrovnik Cable Car official site](https://www.dubrovnikcablecar.com/)
 45. <a id="source-45"></a>[Lokrum Island official site](https://www.lokrum.hr/en/)
-46. <a id="source-46"></a>[Scalini Palace official site](https://scalinipalace.com/)
 47. <a id="source-47"></a>[Autostrade per l'Italia: How the toll is calculated](https://www.autostrade.it/en/servizi-al-cliente/pedaggio/come-si-calcola-il-pedaggio)
 48. <a id="source-48"></a>[Britannica: Illyria](https://www.britannica.com/place/Illyria)
 49. <a id="source-49"></a>[Britannica: Dalmatia](https://www.britannica.com/place/Dalmatia)
