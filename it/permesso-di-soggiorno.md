@@ -4,10 +4,12 @@ parent: Italy
 layout: page
 ---
 
+# Permesso di Soggiorno
+
 [Permesso di Soggiorno](https://www.studiolegalemetta.com/legal-questions-and-answers/permit-to-stay-permesso-di-soggiorno/),
 residence permit,
 [sample](https://www.polimi.it/fileadmin/user_upload/futuri_studenti/vita-da-studente/Permesso_di_soggiorno_sample_31ago.pdf),
-[instructions](https://welcomeoffice.fvg.it/media/25339/how-to-fill-out-the-forms-for-the-permit.pdf),
+[instructions](https://www.portaleimmigrazione.it/ImmigrazioneNET/ITA/nuovaProcedura.html),
 see also [Carta di Sogiorno](https://www.studiolegalemetta.com/legal-questions-and-answers/italian-card-to-stay-carta-di-soggiorno/).
 
 May be obtained without becoming a [tax resident](tax-residency.html) of
@@ -33,7 +35,7 @@ If you plan to stay in Italy for over 3 months, you must take the
   office along with the required documents.
   - A photocopy of your passport bearing an entry visa, if required;
   - 4 recent and identical passport-size photographs;
-  - A €14.62 electronic revenue stamp;
+  - A [€16 revenue stamp](https://www.portaleimmigrazione.it/ImmigrazioneNET/ITA/tabelleCosti.html);
   - Documents supporting your request for the type of residence permit you are applying for.
 - Visit the Police Headquarters (Questura): The post office will provide you
   with an appointment date to go to the local police department for
@@ -65,7 +67,7 @@ The validity of your residence permit is the same as that indicated on your visa
 - Up to 1 year if you are attending a duly documented course of study or a vocational training course;
 - Up to 2 years for self-employment, open-ended employment and family reunification.
 
-[Sample](https://international.unicatt.it/ucscinternational-Rinnovo%20Permit%20of%20Stay%202024_25.pdf).
+[Renewal guidance](https://international.unicatt.it/ucscinternational-brescia-campus-bachelor-and-master-of-science-students).
 
 ## Permesso di Soggiorno per motivi familiari (Family Residence Permit)
 

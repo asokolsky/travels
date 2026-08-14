@@ -4,6 +4,8 @@ parent: Italy
 layout: page
 ---
 
+# PFIC vs. MiFID II
+
 For a U.S. taxpayer living in the European Union, two different legal systems can
 make ordinary fund investing awkward:
 
@@ -21,17 +23,49 @@ including when an investor may request professional treatment.[[5]](#source-5)
 
 ## The Conflict
 
-| Investment                        | U.S. federal issue                                                                            | EU retail-access issue                                                                               |
-| --------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| U.S.-domiciled ETF                | Generally not a PFIC because it is not a foreign corporation                                  | A broker generally cannot make it available to an EU retail investor without the required PRIIPs KID |
-| EU-domiciled ETF or mutual fund   | Often a PFIC because the fund is a foreign corporation dominated by passive income and assets | Commonly available with a KID                                                                        |
-| Individual non-U.S. company share | Must be tested under the PFIC income and asset rules; it is not automatically safe            | A direct share is generally not a PRIIP merely because it is foreign                                 |
-| Individual U.S. company share     | Not a PFIC                                                                                    | A direct share is generally outside the packaged-product KID problem                                 |
+| Investment                        | U.S. federal issue                                                                            | EU retail-access issue                                                                                                  |
+| --------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| U.S.-domiciled mutual fund        | Generally not a PFIC because the fund is a U.S. corporation                                   | It is a packaged product subject to the KID rule; broker and fund-distribution restrictions may also prevent a purchase |
+| U.S.-domiciled ETF                | Generally not a PFIC because the fund is a U.S. corporation                                   | A broker generally cannot make it available to an EU retail investor without the required PRIIPs KID                    |
+| EU-domiciled ETF or mutual fund   | Often a PFIC because the fund is a foreign corporation dominated by passive income and assets | Commonly available with a KID                                                                                           |
+| Individual non-U.S. company share | Must be tested under the PFIC income and asset rules; it is not automatically safe            | A direct share is generally not a PRIIP merely because it is foreign                                                    |
+| Individual U.S. company share     | Not a PFIC                                                                                    | A direct share is generally outside the packaged-product KID problem                                                    |
 
 The rules regulate different things. PFIC status is a U.S. tax classification of
 a **foreign corporation**. PRIIPs regulates how a **packaged product** is made
 available to an EU retail investor. Neither rule categorically prohibits owning
 the affected investment.
+
+## U.S. Mutual Funds vs. U.S. ETFs
+
+The words "mutual fund" and "ETF" describe how fund shares are bought, sold,
+and redeemed; they do not by themselves determine PFIC status. A conventional
+U.S.-domiciled mutual fund and a conventional U.S.-domiciled ETF are both pooled
+funds and are commonly U.S. regulated investment companies (RICs). Because PFIC
+classification requires a foreign corporation, neither is normally a PFIC for a
+U.S. shareholder. Verify the legal issuer and domicile rather than relying on
+the ticker or label.[[1]](#source-1) [[6]](#source-6)
+
+Their practical differences remain important:
+
+| Question                   | U.S.-domiciled mutual fund                                                                                                     | U.S.-domiciled ETF                                                                                                                      |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Trading                    | Shares are bought from and redeemed with the fund, normally at the next calculated net asset value                             | Shares trade intraday on an exchange at a market price that can differ from net asset value                                             |
+| U.S. taxable distributions | The shareholder can receive ordinary dividends and capital-gain distributions even without selling shares                      | The same distribution rules can apply, but in-kind creation and redemption commonly make an ETF less likely to distribute capital gains |
+| Sale by shareholder        | Sale or redemption can create a shareholder-level capital gain or loss                                                         | Exchange sale can create a shareholder-level capital gain or loss                                                                       |
+| EU retail purchase         | PRIIPs applies to the packaged fund, not only to ETFs; a missing KID and the fund's distribution arrangements can block access | A missing PRIIPs KID commonly causes an EU broker to block purchases                                                                    |
+
+The U.S. tax-efficiency advantage of many ETFs is therefore a matter of how the
+portfolio handles redemptions, not a PFIC exemption unique to ETFs. Both mutual
+funds and ETFs may make capital-gain distributions, although ETFs that redeem
+creation units in kind typically make fewer of them.[[6]](#source-6)
+
+For an Italian tax resident, the U.S. label is also not the decisive Italian
+tax distinction. A U.S.-domiciled mutual fund and a U.S.-domiciled ETF can both
+be foreign collective investment undertakings that are not compliant with EU
+fund directives. Italy may therefore classify their proceeds under the same
+non-harmonized-fund rules even though their U.S. trading mechanics differ. See
+[Italian Taxes](taxes.html) for the Italian reporting discussion.
 
 ## PFIC Consequences
 
@@ -140,3 +174,8 @@ preparation, publication, and delivery requirements; consolidated version dated
 <a id="source-5"></a>5. [Directive 2014/65/EU (MiFID
 II)](https://eur-lex.europa.eu/eli/dir/2014/65/oj), Annex II, Section II.1-II.2
 (elective professional-client assessment, criteria, and procedure).
+
+<a id="source-6"></a>6. [SEC Investor Bulletin: Characteristics of Mutual
+Funds and Exchange-Traded Funds
+(ETFs)](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/characteristics-mutual-funds-exchange-traded-funds)
+(trading, redemption, costs, distributions, and relative U.S. tax efficiency).

@@ -1,8 +1,10 @@
 ---
 title: Tax-Free Car Leases for Italy
-layout: page
 parent: Italy
+layout: page
 ---
+
+# Tax-Free Car Leases for Italy
 
 French *Transit Temporaire* (TT) programs let non-EU residents use a new car in
 Europe for several weeks or months. The manufacturer registers and insures the
@@ -107,5 +109,6 @@ Price sources:
 
 - [Renault Eurodrive FAQ](https://www.renaulteurodrive.com/learn-more)
 - [Renault delivery centers](https://www.renaulteurodrive.com/delivery-centers)
+- [Peugeot Car2Europe terms](https://www.autofrance.net/program-terms-and-conditions/)
 - [Citroën 2025–2026 booking conditions](https://www.citroendriveeurope.co.nz/citroen-drive-europe-information/booking-conditions/)
 - [Peugeot Car2Europe through Auto France](https://www.autofrance.net/)

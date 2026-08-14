@@ -1,6 +1,6 @@
 ---
 title: Relevant Accounts
-parent: Finances
+parent: Italy
 layout: page
 ---
 
@@ -339,7 +339,7 @@ safeguarded](https://wise.com/help/articles/50VrYRVwHcsYeKzvWbjf3n/how-our-eu-en
 [international application](https://international.schwab.com/open-account-intro),
 and [PRIIPs information](https://international.schwab.com/PRIIPS-Regulation);
 Charles Schwab, [Broker-Dealer Relationship
-Summary](https://www.schwab.com/public/file/P-2067995/REG38672_final_digital.pdf)
+Summary](https://www.schwab.com/transparency)
 (Italy selection, expat features, current opening minimum, jurisdiction limits,
 PRIIPs, and non-U.S.-resident cash sweep; accessed July 13, 2026).
 
@@ -392,3 +392,7 @@ transfers](https://www.finra.org/investors/investing/investment-accounts/brokera
 <a id="source-14"></a>14. [IBKR Client Portal: Position Transfer Cost
 Basis](https://www.ibkrguides.com/adminportal/performanceandstatements/positiontransfer.htm)
 (transferred-lot entry procedure; updated August 18, 2025).
+
+## Secondary sources
+
+- [What is the Best Brokerage for Expats?](https://usexpatinvesting.com/blog/what-is-the-best-brokerage-for-expats/)

@@ -1,6 +1,6 @@
 ---
 title: Italian Taxes
-parent: Finances
+parent: Italy
 layout: page
 ---
 
@@ -212,23 +212,46 @@ Directly received foreign bank and brokerage cash interest can require return
 reporting. Interest is a capital-income item, not a financial capital gain, so
 ordinary capital losses do not offset it.
 
-### U.S. Mutual Funds and Other Non-Harmonized Funds
+### U.S.-Domiciled Mutual Funds and ETFs
 
 This section addresses Italian tax classification. For the separate U.S. PFIC
 rules and EU retail-access restrictions that affect fund selection, see
 [PFIC vs. MiFID II](PFIC-vs-MiFID-II.html).
 
-Do not treat a U.S.-domiciled mutual fund as if it were an individual stock or
-an EU/EEA harmonized fund for Italian reporting purposes.
+Do not treat a U.S.-domiciled mutual fund or ETF as if it were an individual
+stock merely because the ETF trades on an exchange. Both are pooled investment
+vehicles. The Italian classification turns principally on the fund's domicile
+and regulatory status, not on whether retail shares are purchased from the fund
+at net asset value or traded intraday on an exchange.
+
+For U.S. federal tax purposes, the distinction is narrower. Mutual funds and
+ETFs are commonly regulated investment companies: either can distribute
+dividends and capital gains, and selling either can produce a shareholder-level
+gain or loss. Many ETFs use in-kind creation and redemption, so they typically
+make fewer taxable capital-gain distributions than comparable mutual funds.
+That U.S. tax-efficiency difference does not turn a U.S. ETF into an individual
+stock or an EU-harmonized fund for Italian purposes. [[22]](#source-22)
 
 For 2025 income reported on `Modello 730/2026`, `Quadro D` line D2 code 4
 specifically includes proceeds from foreign collective investment undertakings
-that do not conform to EU directives. The practical planning concern is that
-distributions and positive sale, redemption, or liquidation proceeds from a
-U.S. mutual fund may be treated as `redditi di capitale` that enter ordinary
-progressive-IRPEF taxable income when no final withholding or substitute-tax
-path applies, rather than as ordinary 26% net capital gains. That also means
-the usual capital-loss offset rules may not help. [[1]](#source-1)
+that do not conform to EU directives. A conventional U.S.-domiciled mutual fund
+and a conventional U.S.-domiciled ETF can both fall into this non-harmonized
+foreign-fund category; the ETF wrapper alone does not create different Italian
+tax treatment.
+
+The practical planning concern for either vehicle is that distributions and
+positive sale, redemption, or liquidation proceeds may be treated as `redditi di capitale` that enter ordinary progressive-IRPEF taxable income when no final
+withholding or substitute-tax path applies, rather than as ordinary 26% net
+capital gains. That also means the usual capital-loss offset rules may not help.
+The annual return instructions and the specific fund documents should control
+the filing analysis. [[1]](#source-1)
+
+| Issue                                     | U.S.-domiciled mutual fund                                  | U.S.-domiciled ETF                                                        |
+| ----------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------- |
+| U.S. trading                              | Purchased from or redeemed with the fund at net asset value | Traded on an exchange at market price                                     |
+| U.S. taxable-account tendency             | More likely to distribute portfolio capital gains           | Often fewer capital-gain distributions because of in-kind redemptions     |
+| Italian non-harmonized-fund analysis      | Potentially applies                                         | Potentially applies in the same way; exchange trading is not an exemption |
+| Treatment as an individual share in Italy | No                                                          | No                                                                        |
 
 Before holding or adding a U.S.-domiciled mutual fund or ETF in a taxable
 account, have an Italian tax preparer confirm its classification and reporting
@@ -290,8 +313,8 @@ rule. Italian-source items and nonqualifying items still need separate review.
 
 U.S. citizenship does not remove the Italian tax-residence filing problem. The
 U.S. return, treaty positions, and foreign tax credit calculation still need to
-be modeled after the Italian classification is known. [[19]](#source-19)
-[[20]](#source-20)
+be modeled after the Italian classification is known. [[18]](#source-18)
+[[19]](#source-19)
 
 ## Foreign Real Estate - Imposta sul Valore degli Immobili situati all'Estero, IVIE
 
@@ -306,13 +329,13 @@ and the €200 primary-residence detraction. [[1]](#source-1) [[2]](#source-2)
 Imposta Municipale Unica (IMU) municipal property tax applies to second homes,
 luxury properties, and non-residential real estate. Law 160/2019 is the
 baseline national IMU statute; municipal pages such as Torino's IMU page set
-local rates and filing/payment details. [[17]](#source-17) [[18]](#source-18)
+local rates and filing/payment details. [[16]](#source-16) [[17]](#source-17)
 
 ### Primary Residence
 
 Standard, non-luxury primary homes are generally exempt from IMU.
 Luxury primary residences in cadastral categories A/1, A/8, or A/9 remain
-inside the IMU system. [[17]](#source-17)
+inside the IMU system. [[16]](#source-16)
 
 ### Second Homes
 
@@ -341,12 +364,12 @@ Key components:
 - Multiplier: for standard residential properties, commonly 160.
 - `Aliquota`: set locally by the municipality where the apartment is located.
   For rough planning, second-home rates often fall around 0.4% to 1.06%, but
-  the municipal resolution is the source of truth. [[17]](#source-17)
-  [[18]](#source-18)
+  the municipal resolution is the source of truth. [[16]](#source-16)
+  [[17]](#source-17)
 
 For an apartment in Torino with a $500,000 market value, that is about €431,000
 at the June 16, 2026 ECB reference rate (€1 = $1.1594), but IMU uses cadastral
-value rather than market value. [[16]](#source-16)
+value rather than market value. [[15]](#source-15)
 
 ## Example
 
@@ -357,15 +380,15 @@ foreign tax credits, or preparer-specific reporting choices.
 Planning assumptions:
 
 - Household income is $150,000, converted at the ECB reference rate for
-  June 16, 2026 (€1 = $1.1594), or about €129,000. [[16]](#source-16)
+  June 16, 2026 (€1 = $1.1594), or about €129,000. [[15]](#source-15)
 - Income mix: about €74K of pension / Social Security income taxed as ordinary
   IRPEF income, plus about €27.7K of dividends and €27.7K of capital gains.
 - The ordinary income is modeled as one spouse's income. If pension / Social
   Security income is split between spouses, calculate IRPEF and local
   addizionali separately for each spouse.
-- Healthcare is not an Italian income tax. The examples use an Italy-resident
-  household healthcare placeholder of €4,000/year for two voluntary SSN
-  enrollments before private/top-up
+- Healthcare is not an Italian income tax. The examples use the repo's
+  Italy-resident household healthcare placeholder
+  of €4,000/year for two voluntary SSN enrollments before private/top-up
   coverage. If only one spouse needs the voluntary SSN contribution, subtract
   €2,000 from the totals.
 
@@ -396,7 +419,7 @@ stack.
 ### Martinsicuro - Article 24-ter 7% Regime
 
 Martinsicuro is a qualifying 7% pensioner-regime municipality in the repo's
-[eligible comuni](../7-percent-munis.html) screen: Abruzzo, population 16,058,
+eligible comuni screen: Abruzzo, population 16,058,
 below the current Article 24-ter 30,000-resident ceiling. Article 24-ter of the
 TUIR and the 730/2026 instructions say the option can apply a 7% substitute tax
 to qualifying foreign-source income for the year of transfer and the next nine
@@ -426,7 +449,7 @@ estimate.
 
 Italy and the U.S. have a bilateral income-tax treaty, and U.S. citizens can
 also use the foreign tax credit rules. That does not remove the need to file on
-both sides when both filing systems apply. [[19]](#source-19) [[20]](#source-20)
+both sides when both filing systems apply. [[18]](#source-18) [[19]](#source-19)
 
 The planning sequence is:
 
@@ -438,25 +461,25 @@ The planning sequence is:
   interest, and capital gains need category-by-category treaty review. The
   U.S.-Italy treaty has special pension and social-security language in Article
   18 and the protocol, and separate rules for government service in Article 19.
-  [[19]](#source-19)
+  [[18]](#source-18)
 
 ### 2. Then File the U.S. Return
 
 - As a U.S. citizen, you remain subject to U.S. tax on worldwide income. The
   treaty saving clause also lets the U.S. tax its citizens as if the treaty did
   not exist, except for specific treaty benefits such as the double-taxation
-  relief article. [[19]](#source-19)
+  relief article. [[18]](#source-18)
 - You may claim a Foreign Tax Credit (FTC), usually on Form 1116, for qualified
-  foreign income taxes paid or accrued. [[20]](#source-20)
+  foreign income taxes paid or accrued. [[19]](#source-19)
 
 ### 3. Foreign Tax Credit
 
 - The FTC can reduce U.S. tax on the same foreign-source income. IRS
   Publication 514 says the credit is intended to relieve double tax when the
-  same foreign income is taxed by both countries. [[20]](#source-20)
+  same foreign income is taxed by both countries. [[19]](#source-19)
 - The credit is limited. It generally offsets only U.S. income tax in the
   relevant limitation category; it does not make foreign wealth taxes, property
-  taxes, or every substitute tax automatically creditable. [[20]](#source-20)
+  taxes, or every substitute tax automatically creditable. [[19]](#source-19)
 
 Example:
 
@@ -485,14 +508,14 @@ asset location, and the beneficiary's relationship to the deceased. Citizenship
 alone is not the main driver.
 
 Under the succession-tax territoriality rule in D.Lgs. 346/1990:
-[[21]](#source-21)
+[[20]](#source-20)
 
 | Deceased person's tax situation | Italian inheritance-tax reach |
 | ------------------------------- | ----------------------------- |
 | Resident in Italy at death      | Worldwide assets and rights   |
 | Not resident in Italy at death  | Italian-situs assets only     |
 
-Current planning rates are: [[21]](#source-21)
+Current planning rates are: [[20]](#source-20)
 
 | Beneficiary relationship                         | Succession tax                                                        |
 | ------------------------------------------------ | --------------------------------------------------------------------- |
@@ -505,7 +528,7 @@ Current planning rates are: [[21]](#source-21)
 If inherited assets include Italian real estate, mortgage and cadastral taxes
 can also apply under D.Lgs. 347/1990. First-home relief can reduce those real
 estate transfer taxes to fixed amounts, but that is a separate issue from the
-succession-tax rate. [[22]](#source-22)
+succession-tax rate. [[21]](#source-21)
 
 ## Source References
 
@@ -523,13 +546,14 @@ succession-tax rate. [[22]](#source-22)
 1. <a id="source-12"></a>[Normattiva: TUIR Article 24-ter, 7% pensioner regime](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art24ter)
 1. <a id="source-13"></a>[Normattiva: TUIR Article 49, employment income and pension income](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art49)
 1. <a id="source-14"></a>[Agenzia Entrate: response 616/2021 on U.S. IRA SEPP payments and Article 24-ter](https://www.agenziaentrate.gov.it/portale/documents/20143/3788714/Risposta+all%27interpello+n.+616+del+20+settembre+2021.pdf/e2228199-24e9-fd07-0ea6-9147456cbb6c?browser=1)
-1. <a id="source-16"></a>[European Central Bank: euro foreign exchange reference rates, historical XML](https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml)
-1. <a id="source-17"></a>[Normattiva: Law 160/2019 Article 1, IMU rules](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2019-12-27;160~art1)
-1. <a id="source-18"></a>[Comune di Torino: IMU office and local guidance](https://www.comune.torino.it/amministrazione/ufficio-imu-gestione-rapporti-lutenza-imu)
-1. <a id="source-19"></a>[IRS: U.S.-Italy income tax treaty](https://www.irs.gov/pub/irs-trty/italy.pdf)
-1. <a id="source-20"></a>[IRS Publication 514, Foreign Tax Credit for Individuals, 2025 returns](https://www.irs.gov/pub/irs-pdf/p514.pdf)
-1. <a id="source-21"></a>[Normattiva: D.Lgs. 346/1990, succession and donation tax](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1990-10-31;346)
-1. <a id="source-22"></a>[Normattiva: D.Lgs. 347/1990, mortgage and cadastral taxes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1990-10-31;347)
+1. <a id="source-15"></a>[European Central Bank: euro foreign exchange reference rates, historical XML](https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml)
+1. <a id="source-16"></a>[Normattiva: Law 160/2019 Article 1, IMU rules](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2019-12-27;160~art1)
+1. <a id="source-17"></a>[Comune di Torino: IMU office and local guidance](https://www.comune.torino.it/amministrazione/ufficio-imu-gestione-rapporti-lutenza-imu)
+1. <a id="source-18"></a>[IRS: U.S.-Italy income tax treaty](https://www.irs.gov/pub/irs-trty/italy.pdf)
+1. <a id="source-19"></a>[IRS Publication 514, Foreign Tax Credit for Individuals, 2025 returns](https://www.irs.gov/pub/irs-pdf/p514.pdf)
+1. <a id="source-20"></a>[Normattiva: D.Lgs. 346/1990, succession and donation tax](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1990-10-31;346)
+1. <a id="source-21"></a>[Normattiva: D.Lgs. 347/1990, mortgage and cadastral taxes](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1990-10-31;347)
+1. <a id="source-22"></a>[SEC Investor Bulletin: Characteristics of Mutual Funds and Exchange-Traded Funds (ETFs)](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/characteristics-mutual-funds-exchange-traded-funds)
 
 ## Secondary References
 
@@ -540,7 +564,7 @@ These are not the primary authority for the cited rules above.
 - [Choice of Law in Italian-American Cross-Border Successions](https://www.mylawyerinitaly.com/choice-of-law-in-italian-american-cross-border-successions/inheritance/)
 - [Taxes for US expats](https://www.expatslivinginrome.com/taxes-for-us-expats-in-italy/)
 - [Tax benefits of fiscal residence in Italy](https://www.expatslivinginrome.com/tax-benefits-fiscal-residence-italy/)
-- [Expats living in Rome](https://www.expatslivinginrome.com/category/legal/taxes-1/)
+- [Expats living in Rome](https://www.expatslivinginrome.com/category/taxes/)
 - [taxing.it](https://taxing.it/technical-resources/)
 - [HTJ Tax: U.S. Retirement Accounts and Italian Wealth and Income Tax, posted November 18, 2025, updated February 27, 2026](https://htj.tax/2025/11/u-s-retirement-accounts-and-italian-wealth-and-income-tax/)
 
