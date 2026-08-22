@@ -136,6 +136,15 @@ Estimated driving: 3.25 to 3.75 hours total, plus border time.
 
 Map: [Day 1 route: Dubrovnik Airbnb -> Ston -> Pocitelj -> Mostar Airbnb](https://www.google.com/maps/dir/?api=1&origin=Sreserska%20ulica%202%2C%20Dubrovnik%2C%20Croatia&destination=One%C5%A1%C4%87ukova%2039%20B%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina&travelmode=driving&waypoints=Ston%2C%20Croatia%7CPocitelj%2C%20Bosnia%20and%20Herzegovina)
 
+Border queue check: before leaving Ston, compare the Croatian-side reports and
+cameras on [HAK](https://www.hak.hr/info/stanje-na-cestama/?lang=en) with the
+Bosnian-side reports and cameras on
+[BIHAMK](https://bihamk.ba/spi/stanje-na-cesti-u-bih/granicni-prijelazi).
+Check [Metkovic-Doljani](https://www.google.com/maps/search/?api=1&query=Metkovic%20Doljani%20border%20crossing)
+and [Nova Sela-Bijaca](https://www.google.com/maps/search/?api=1&query=Nova%20Sela%20Bijaca%20border%20crossing), then let current traffic and the
+Pocitelj approach decide between them. Reported waits can change quickly, and
+a camera may be more useful than a stale estimate. [[73]](#source-73)[[74]](#source-74)
+
 - Leave [Dubrovnik](https://en.wikipedia.org/wiki/Dubrovnik) early.
 - Stop in [Ston](https://en.wikipedia.org/wiki/Ston) and [Mali Ston](https://en.wikipedia.org/wiki/Mali_Ston) for the walls, salt pans, and oysters.
 - Continue to [Pocitelj](https://en.wikipedia.org/wiki/Po%C4%8Ditelj) for a short walk through the old stone village.
@@ -160,6 +169,13 @@ Skip [Kravica](https://en.wikipedia.org/wiki/Kravica_%28waterfall%29) unless the
 Estimated driving: 3.5 to 4 hours total, plus border time. Skip [Imotski](https://en.wikipedia.org/wiki/Imotski) if the border is slow. [[1]](#source-1)[[9]](#source-9)
 
 Map: [Day 2 route: Mostar Airbnb -> Blagaj -> Brela -> Split Airbnb](https://www.google.com/maps/dir/?api=1&origin=One%C5%A1%C4%87ukova%2039%20B%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina&destination=Ulica%20Antuna%20Gustava%20Mato%C5%A1a%2027%2C%20Split%2C%20Croatia&travelmode=driving&waypoints=Blagaj%2C%20Bosnia%20and%20Herzegovina%7CBrela%2C%20Croatia)
+
+Border queue check: after Blagaj and before committing to the motorway, reopen
+[HAK](https://www.hak.hr/info/stanje-na-cestama/?lang=en) and
+[BIHAMK](https://bihamk.ba/spi/stanje-na-cesti-u-bih/granicni-prijelazi).
+Compare [Bijaca-Nova Sela](https://www.google.com/maps/search/?api=1&query=Bijaca%20Nova%20Sela%20border%20crossing) with
+[Doljani-Metkovic](https://www.google.com/maps/search/?api=1&query=Doljani%20Metkovic%20border%20crossing); only consider an inland Imotski-area
+crossing if live navigation shows a meaningful end-to-end saving. [[73]](#source-73)[[74]](#source-74)
 
 - See [Mostar](https://en.wikipedia.org/wiki/Mostar) early before the day-trip crowds.
 - Detour to [Blagaj](https://en.wikipedia.org/wiki/Blagaj,_Mostar) for the [Buna spring](https://en.wikipedia.org/wiki/Vrelo_Bune) and tekke.
@@ -289,10 +305,69 @@ Lodging notes:
 
 Skip note: Skip [Postojna Cave](https://en.wikipedia.org/wiki/Postojna_Cave), [Skocjan Caves](https://en.wikipedia.org/wiki/%C5%A0kocjan_Caves), [Piran](https://en.wikipedia.org/wiki/Piran), [Opatija](https://en.wikipedia.org/wiki/Opatija), Venice, Verona, Lake Garda, Milan, Como, and Trieste. The win is arriving safely.
 
+## Local Dishes and Alcohol: What to Order
+
+This route moves from Adriatic seafood through Ottoman-influenced Herzegovinian
+food to inland Lika cooking. Do not try to cover every dish: aim for one
+characteristic meal in each overnight base. Menus and seasonal availability can
+change, so confirm a specific dish when reserving, especially anything cooked
+under a *peka*. The driver should save rakija and full wine pours for after the
+car is parked.
+
+- **Dubrovnik and Mali Ston:** Start with raw Mali Ston oysters, mussels *na
+  buzaru* (white wine, garlic, parsley, and olive oil), or cuttlefish black
+  risotto. For a meat dinner, look for *kopun* (capon) or *sporki makaruli*,
+  pasta stained with a slow-cooked meat sauce; finish with Dubrovnik *rozata*, a
+  caramel custard. Drink a local [Peljesac](https://en.wikipedia.org/wiki/Pelje%C5%A1ac)
+  red such as Dingac or Postup, or a Dalmatian Posip with seafood; *prosek* is a
+  sweet dessert wine, not prosecco. [[64]](#source-64)
+  - **Where:** Kapetanova Kuca ([map](https://www.google.com/maps/search/?api=1&query=Kapetanova%20Kuca%2C%20Mali%20Ston%2C%20Croatia)) or Bota Sare ([map](https://www.google.com/maps/search/?api=1&query=Bota%20Sare%2C%20Mali%20Ston%2C%20Croatia)) in Mali Ston for oysters; Kamenice ([map](https://www.google.com/maps/search/?api=1&query=Kamenice%2C%20Dubrovnik%2C%20Croatia))
+    for a simple seafood meal; Kopun ([map](https://www.google.com/maps/search/?api=1&query=Kopun%2C%20Dubrovnik%2C%20Croatia)) for capon, black risotto, *sporki
+    makaruli*, and *rozata*. [[19]](#source-19)[[21]](#source-21)[[22]](#source-22)[[65]](#source-65)
+- **Mostar and Herzegovina:** Order *cevapi* with flatbread, onion, and kajmak
+  for the grill-first meal. If four people are sharing, add one slower Bosnian
+  dish such as *klepe* dumplings, stuffed *dolma* or *japrak*, then Bosnian
+  coffee and baklava. Pair dinner with indigenous Herzegovinian Zilavka (white)
+  or Blatina (red); *loza* and herbal *travarica* are local grape and herb
+  rakijas. [[66]](#source-66)[[67]](#source-67)
+  - **Where:** Tima-Irma ([map](https://www.google.com/maps/search/?api=1&query=Tima-Irma%2C%20Mostar%2C%20Bosnia%20and%20Herzegovina)), almost beside the confirmed apartment, is the direct
+    choice for *cevapi*, *pljeskavica*, and mixed grill. Choose Sadrvan for the
+    broader sit-down Bosnian spread and local wine. [[23]](#source-23)[[68]](#source-68)
+- **Split and the Dalmatian coast:** Prioritize cuttlefish black risotto,
+  grilled whole fish with chard and potatoes, octopus salad, or *pasticada*
+  (slow-braised beef with gnocchi). A lamb or octopus *peka* is worthwhile only
+  if the restaurant confirms it in advance; it cooks for hours and is usually
+  a shared order. Posip and Marastina are useful white-wine choices for seafood;
+  Plavac Mali is the obvious regional red. [[69]](#source-69)
+  - **Where:** Konoba Fetivi ([map](https://www.google.com/maps/search/?api=1&query=Konoba%20Fetivi%2C%20Split%2C%20Croatia)) is the best existing pick for black risotto and
+    simply prepared fish. Ask K.uzina ([map](https://www.google.com/maps/search/?api=1&query=K.uzina%2C%20Split%2C%20Croatia)) about *pasticada* or the day's regional
+    dishes; for *peka*, choose a restaurant only after it confirms the dish and
+    required preorder rather than assuming it is available. [[25]](#source-25)[[26]](#source-26)[[70]](#source-70)
+- **Rastoke and Plitvice/Lika:** Look for *skripavac* squeaky cheese, lamb or
+  veal cooked under the bell, grilled trout, and *Licke police*--skin-on Lika
+  potato halves, often served with bacon and cheese. The regional digestif is
+  plum *sljivovica*. [[71]](#source-71)
+  - **Where:** Licka Kuca ([map](https://www.google.com/maps/search/?api=1&query=Licka%20Kuca%2C%20Plitvice%20Lakes%2C%20Croatia)) at Plitvice Entrance 1 is the most focused local-food
+    choice and fits an early-evening arrival; Hotel Degenija remains the easier
+    dinner if sleeping there. Confirm hours and kitchen closing time when
+    booking accommodation. [[40]](#source-40)[[72]](#source-72)
+
+## Cell Phone
+
+HolaFly One Country options:
+
+- Croatia 7 days - $27.50
+- Italy
+
+HolaFly Europe options:
+- Europe 20 days - $61
+
+
 ## Practical Car Notes
 
 - Confirm the rental car is allowed into [Bosnia and Herzegovina](https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina), [Slovenia](https://en.wikipedia.org/wiki/Slovenia), and [Italy](https://en.wikipedia.org/wiki/Italy), and that the return plan works for [Montevecchia](https://en.wikipedia.org/wiki/Montevecchia), [Lecco](https://en.wikipedia.org/wiki/Lecco), Milan, or whichever city gets the car back. [[9]](#source-9)
 - [Bosnia and Herzegovina](https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina) is outside Schengen, so expect passport checks entering and leaving BiH. [[9]](#source-9)
+- For the two Croatia-Bosnia crossings, check [HAK live traffic and border cameras](https://www.hak.hr/info/stanje-na-cestama/?lang=en) and [BIHAMK border reports and cameras](https://bihamk.ba/spi/stanje-na-cesti-u-bih/granicni-prijelazi) before departure and again before the last practical route split. [[73]](#source-73)[[74]](#source-74)
 - [Croatia](https://en.wikipedia.org/wiki/Croatia), [Slovenia](https://en.wikipedia.org/wiki/Slovenia), and [Italy](https://en.wikipedia.org/wiki/Italy) are Schengen countries, but temporary internal border controls may still happen. As of August 2, 2026, the EU lists [Italy](https://en.wikipedia.org/wiki/Italy) checks on its land border with [Slovenia](https://en.wikipedia.org/wiki/Slovenia) through December 18, 2026; Slovenia's earlier checks at its Croatian border are no longer listed as current. [[8]](#source-8)
 - [Slovenia](https://en.wikipedia.org/wiki/Slovenia) requires an e-vignette for motorways and expressways. For most passenger rental cars, this is usually toll class 2A; verify the license plate before buying. [[7]](#source-7)
 - [Croatia](https://en.wikipedia.org/wiki/Croatia) uses motorway tolls, usually paid at toll booths or by card. [[10]](#source-10)
@@ -352,3 +427,14 @@ Skip note: Skip [Postojna Cave](https://en.wikipedia.org/wiki/Postojna_Cave), [S
 61. <a id="source-61"></a>[Rick Steves Travel Forum: Split museums and two-night tradeoffs](https://community.ricksteves.com/travel-forum/croatia/is-split-worth-it)
 62. <a id="source-62"></a>[Ethnographic Museum of Split: official hours and admission](https://etnografski-muzej-split.hr/en/museum/general-information)
 63. <a id="source-63"></a>[Ivan Mestrovic Museums: official Split gallery hours](https://mestrovic.hr/naslovnica-nova/)
+64. <a id="source-64"></a>[Dubrovnik-Neretva Tourist Board: regional gastronomy, wines, and traditional dishes](https://visitdubrovnik.hr/gastronomy/)
+65. <a id="source-65"></a>[Restaurant Kopun: traditional Croatian and Dubrovnik cuisine](https://www.restaurantkopun.com/)
+66. <a id="source-66"></a>[Mostar Tourist Board: local wine, Zilavka, Blatina, and rakija](https://www.turizam.mostar.ba/index.php?Itemid=438&catid=65%3Aope-informacije&id=212%3Ashopping&lang=en&option=com_content&view=article)
+67. <a id="source-67"></a>[Food House Mostar: traditional dishes to try in Mostar](https://foodhousemostar.com/what-to-eat-in-mostar/)
+68. <a id="source-68"></a>[Tima-Irma Mostar: official restaurant and grill specialties](https://www.cevabdzinica-tima.com/)
+69. <a id="source-69"></a>[Split Tourist Board: Discover Split food and wine guide](https://visitsplit.com/clients/1/downloads/63wa1vbhb7bw1bz.pdf?lang=en)
+70. <a id="source-70"></a>[Gault&Millau Croatia: Konoba Fetivi](https://hr.gaultmillau.com/en/restaurants/konoba-fetivi)
+71. <a id="source-71"></a>[Lika Destination: traditional Lika ingredients and dishes](https://www.lika-destination.hr/gdje-jesti/ponuda/gastro-lika)
+72. <a id="source-72"></a>[Lika Destination: Licka Kuca restaurant at Plitvice Entrance 1](https://www.lika-destination.hr/gdje-jesti/ponuda/restoran-licka-kuca)
+73. <a id="source-73"></a>[HAK: live Croatian traffic, border waits, and border cameras](https://www.hak.hr/info/stanje-na-cestama/?lang=en)
+74. <a id="source-74"></a>[BIHAMK: Bosnia and Herzegovina border-crossing reports and cameras](https://bihamk.ba/spi/stanje-na-cesti-u-bih/granicni-prijelazi)
