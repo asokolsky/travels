@@ -21,6 +21,7 @@ central Berlin, and do not rent a car.
   Moeckernstrasse 10, 10963 Berlin
   ([map](https://www.google.com/maps/search/?api=1&query=Tempodrom%2C%20Moeckernstrasse%2010%2C%2010963%20Berlin%2C%20Germany)).
 - [TripIt itinerary](https://www.tripit.com/p/A29624A410AD596691FABE792A9F0D37).
+- [Public Transportation in Berlin](public-transportation.html).
 
 As of September 16, 2026, NVIDIA lists workshops on October 20, followed by
 the conference and expo on October 21-22. The keynote pregame runs from
