@@ -87,44 +87,61 @@ For a conference-free day, follow the Rick Steves-focused
 [One-Day Berlin Urban Hike](one-day-hike.html), a 7-9 mile route through the
 historic center, Museum Island, the Berlin Wall Memorial, and Prenzlauer Berg.
 
-## Nearby Groceries and Restaurants
+## Local Groceries
+
+Distances are approximate walks from STATION-Berlin. Berlin shops are closed
+on Sundays except a few in large train stations, so check the day before
+shopping.
+
+**Open today (Sunday, October 18, 2026):** only the Go Asia at Potsdamer Platz
+station. EDEKA Gerstmann and REWE Yorckstrasse are both closed. [[8]](#source-8)[[9]](#source-9)[[13]](#source-13)
+
+- **Go Asia, Potsdamer Platz station** -- open today, 8:00 a.m.-8:00 p.m.
+  (Monday-Saturday 8:00 a.m.-9:30 p.m.). About a 15-minute walk from
+  STATION-Berlin and close to the Vienna House Easy hotel. An Asian
+  supermarket, so expect snacks, noodles, drinks, and packaged food rather
+  than a full European range. Potsdamer Platz, 10785 Berlin
+  ([map](https://www.google.com/maps/search/?api=1&query=Go%20Asia%2C%20Potsdamer%20Platz%20station%2C%2010785%20Berlin%2C%20Germany)).
+  [[13]](#source-13)
+- **EDEKA Gerstmann** -- closed today. About a 10-minute walk and the most
+  convenient full supermarket for water, breakfast supplies, snacks, and
+  prepared food. Stresemannstrasse 52
+  ([map](https://www.google.com/maps/search/?api=1&query=EDEKA%20Gerstmann%2C%20Stresemannstrasse%2052%2C%2010963%20Berlin%2C%20Germany)).
+  The official listing currently shows Monday-Friday hours of 7:00 a.m.-
+  midnight, Saturday until 11:30 p.m., and Sunday closed. [[8]](#source-8)
+- **REWE Yorckstrasse** -- closed today. About a 20-minute walk; the useful
+  fallback for a broader supply run or a stop near Yorckstrasse station.
+  Yorckstrasse 78
+  ([map](https://www.google.com/maps/search/?api=1&query=REWE%2C%20Yorckstrasse%2078%2C%2010965%20Berlin%2C%20Germany)).
+  The official listing currently shows Monday-Friday hours of 6:00 a.m.-
+  midnight, Saturday until 11:30 p.m., and Sunday closed. [[9]](#source-9)
+
+As of October 18, 2026, the Go Asia hours come from the Berlin city
+Sunday-shopping listing; confirm them on arrival. Buy routine supplies on
+Monday or during the conference week rather than assuming a neighborhood
+supermarket will open on Sunday.
+
+[Walking route: EDEKA Gerstmann to REWE Yorckstrasse](https://www.google.com/maps/dir/?api=1&origin=EDEKA%20Gerstmann%2C%20Stresemannstrasse%2052%2C%20Berlin%2C%20Germany&destination=REWE%2C%20Yorckstrasse%2078%2C%20Berlin%2C%20Germany&travelmode=walking)
+
+## Restaurants
 
 Distances are approximate walks from STATION-Berlin. As of September 16,
 2026, the official business pages list these locations as operating. Recheck
-hours before setting out, especially on Sunday.
+hours before setting out.
 
-The embedded map includes every grocery store and restaurant recommended
-below. Its route line is an orientation aid, not a suggested order for visiting
-the five places.
+The embedded map includes every restaurant recommended below. Its route line
+is an orientation aid, not a suggested order for visiting the three places.
 
 <iframe
-  src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m12!4m11!3e2!4m1!2sEDEKA+Gerstmann,+Stresemannstrasse+52,+Berlin!4m1!2sREWE,+Yorckstrasse+78,+Berlin!4m1!2sBRLO+Brwhouse,+Schoeneberger+Strasse+16,+Berlin!4m1!2sTorEins,+Moeckernstrasse+26,+Berlin!4m1!2sCurry+36,+Mehringdamm+36,+Berlin"
-  title="Map of recommended groceries and restaurants near GTC Berlin"
+  src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m8!4m7!3e2!4m1!2sBRLO+Brwhouse,+Schoeneberger+Strasse+16,+Berlin!4m1!2sTorEins,+Moeckernstrasse+26,+Berlin!4m1!2sCurry+36,+Mehringdamm+36,+Berlin"
+  title="Map of recommended restaurants near GTC Berlin"
   style="border: 1px solid #d9d4c7; height: 520px; width: 100%;"
   loading="lazy"
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 
-[Open the groceries and restaurants map full screen](https://www.google.com/maps/dir/?api=1&origin=EDEKA%20Gerstmann%2C%20Stresemannstrasse%2052%2C%20Berlin%2C%20Germany&destination=Curry%2036%2C%20Mehringdamm%2036%2C%20Berlin%2C%20Germany&waypoints=REWE%2C%20Yorckstrasse%2078%2C%20Berlin%2C%20Germany%7CBRLO%20Brwhouse%2C%20Schoeneberger%20Strasse%2016%2C%20Berlin%2C%20Germany%7CTorEins%2C%20Moeckernstrasse%2026%2C%20Berlin%2C%20Germany&travelmode=walking).
+[Open the restaurants map full screen](https://www.google.com/maps/dir/?api=1&origin=BRLO%20Brwhouse%2C%20Schoeneberger%20Strasse%2016%2C%20Berlin%2C%20Germany&destination=Curry%2036%2C%20Mehringdamm%2036%2C%20Berlin%2C%20Germany&waypoints=TorEins%2C%20Moeckernstrasse%2026%2C%20Berlin%2C%20Germany&travelmode=walking).
 
-### Grocery Stores
-
-- **EDEKA Gerstmann** -- about a 10-minute walk and the most convenient full
-  supermarket for water, breakfast supplies, snacks, and prepared food.
-  Stresemannstrasse 52
-  ([map](https://www.google.com/maps/search/?api=1&query=EDEKA%20Gerstmann%2C%20Stresemannstrasse%2052%2C%2010963%20Berlin%2C%20Germany)).
-  The official listing currently shows Monday-Friday hours of 7:00 a.m.-
-  midnight, Saturday until 11:30 p.m., and Sunday closed. [[8]](#source-8)
-- **REWE Yorckstrasse** -- about a 20-minute walk; the useful fallback for a
-  broader supply run or a stop near Yorckstrasse station. Yorckstrasse 78
-  ([map](https://www.google.com/maps/search/?api=1&query=REWE%2C%20Yorckstrasse%2078%2C%2010965%20Berlin%2C%20Germany)).
-  The official listing currently shows Monday-Friday hours of 6:00 a.m.-
-  midnight, Saturday until 11:30 p.m., and Sunday closed. [[9]](#source-9)
-
-Buy routine supplies on Monday or during the conference week rather than
-assuming a neighborhood supermarket will open on Sunday.
-
-### Restaurants
 
 - **BRLO Brwhouse** -- about a 10-minute walk in Park am Gleisdreieck; the
   best nearby choice for a relaxed group dinner, Berlin-brewed beer, and
@@ -198,3 +215,4 @@ on two walkable venues with good transit access.
 10. <a id="source-10"></a>[BRLO Brwhouse official location page](https://en.brlo.de/gastronomien/brlo-brwhouse)
 11. <a id="source-11"></a>[TorEins official site](https://www.toreins-berlin.de/)
 12. <a id="source-12"></a>[Curry 36 official site](https://curry36.de/)
+13. <a id="source-13"></a>[Berlin.de: Go Asia, Potsdamer Platz station (Sunday supermarkets)](https://www.berlin.de/en/shopping/sunday/supermarkets/8772760-7709433-go-asia-bahnhof-potsdamer-platz.en.html)
